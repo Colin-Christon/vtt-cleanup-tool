@@ -1,0 +1,823 @@
+WEBVTT
+
+00:00:04.220 --> 00:00:08.848
+So now we have created a view in inbound logistics that shows a little about,
+
+00:00:08.848 --> 00:00:12.188
+when some shipments arrive, that's actually also,
+
+00:00:12.188 --> 00:00:16.759
+and what we actually saw in that view. It was actually some of these dates
+
+00:00:16.759 --> 00:00:21.212
+from Our brewing fleet, i.e. ETD and ITA. You can actually change them directly
+
+00:00:21.212 --> 00:00:24.141
+from here, when you get a message from the supplier,
+
+00:00:24.141 --> 00:00:27.130
+and so the shipment will be delayed by a week,
+
+00:00:27.130 --> 00:00:30.059
+then you can change it directly in there. Add 100.
+
+00:00:30.800 --> 00:00:31.120
+And if you saw.
+
+00:00:31.630 --> 00:00:35.110
+Just like we did last time, we have set up automatic movement of wordflow dates.
+
+00:00:36.840 --> 00:00:40.755
+On the purchase order, that leaves 2. That's where it moved this week.
+
+00:00:40.755 --> 00:00:45.351
+automatically when you moved the dates, well, it can actually do that too.
+
+00:00:45.351 --> 00:00:49.778
+from based on the rules or because you are in inbound logistics and change your
+
+00:00:49.778 --> 00:00:52.899
+your due date, it may affect your due date.
+
+00:00:52.899 --> 00:00:55.906
+purchasing form it's called 30 plus or something,
+
+00:00:55.906 --> 00:01:00.559
+So, where do we start to create that function called zero one and then plus 7.
+
+00:01:01.470 --> 00:01:02.830
+And then it could move it regularly.
+
+00:01:03.670 --> 00:01:06.030
+When you actually run it, an installer puts it together.
+
+00:01:07.600 --> 00:01:09.894
+And now in our example. I think it was
+
+00:01:09.894 --> 00:01:13.124
+The date of receipt is disputed, but that will typically also be related.
+
+00:01:13.124 --> 00:01:16.870
+Because if they move the shipping date, then you will also move the receiving date,
+
+00:01:16.870 --> 00:01:19.773
+and then that's what changes. Current Our example,
+
+00:01:19.773 --> 00:01:23.097
+where it is the receipt date that changes the term in the shopping cart.
+
+00:01:23.097 --> 00:01:25.579
+This happens automatically if you have set these things up,
+
+00:01:25.579 --> 00:01:28.716
+Just like we did last time, but now you're just allowed to correct it in 81.
+
+00:01:28.716 --> 00:01:32.414
+48, where you are not only standing on an order, but where you can stand and have an overview
+
+00:01:32.414 --> 00:01:33.960
+that all supplier orders.
+
+00:01:34.510 --> 00:01:34.990
+Walk.
+
+00:01:35.910 --> 00:01:39.903
+In reality, so It's actually smart. Something else There is also is smart.
+
+00:01:39.903 --> 00:01:42.549
+It's that you There are many other checkpoints,
+
+00:01:42.549 --> 00:01:45.194
+and if you want to fill it up on them too,
+
+00:01:45.194 --> 00:01:48.565
+then you can actually finish them directly from here.
+
+00:01:48.565 --> 00:01:52.818
+This requires creating some fields that are related to the different
+
+00:01:52.818 --> 00:01:55.515
+checkpoints, and here the TV chef has been a bit busy
+
+00:01:55.515 --> 00:01:59.820
+by creating a new field here called a now 1 0 0 1 It's just a long,
+
+00:01:59.820 --> 00:02:00.909
+It's a pimp field.
+
+00:02:02.120 --> 00:02:02.400
+And.
+
+00:02:03.890 --> 00:02:07.105
+This is a field that should indicate that the sending is OK,
+
+00:02:07.105 --> 00:02:11.355
+that the supplier has said that starting point. We have defined a valid value cross
+
+00:02:11.355 --> 00:02:15.259
+or missing and cross, then it's OK, so we actually want it.
+
+00:02:15.259 --> 00:02:19.164
+But if we tick it, it actually has to finish all that.
+
+00:02:19.164 --> 00:02:23.127
+here. Check on and what happens when you finish checking point.
+
+00:02:23.127 --> 00:02:26.113
+The status may then change at the same time.
+
+00:02:26.113 --> 00:02:28.410
+The shipping status is updated.
+
+00:02:29.430 --> 00:02:33.298
+So it's an option, you can update yours directly from here.
+
+00:02:33.298 --> 00:02:37.508
+check points. So this field. I created it the same way as
+
+00:02:37.508 --> 00:02:39.670
+Our container size field in here.
+
+00:02:40.870 --> 00:02:43.310
+Now I could add it to Our view.
+
+00:02:48.780 --> 00:02:50.180
+A bit of a messy life in here.
+
+00:02:51.720 --> 00:02:52.440
+Send that crocodile.
+
+00:02:55.670 --> 00:02:57.710
+Not really. Now I'll just have to see what I had in my bag.
+
+00:02:57.710 --> 00:02:58.230
+the road actually.
+
+00:03:00.950 --> 00:03:03.550
+Well, I can just search for 0 1 0 0 1 too.
+
+00:03:05.310 --> 00:03:06.150
+So I can figure it out.
+
+00:03:08.820 --> 00:03:15.376
+1 0 1 0 welcome there OKAF difficult. It was a nice text so we just write
+
+00:03:15.376 --> 00:03:20.420
+100 and then only one Our example comes out of it.
+
+00:03:21.470 --> 00:03:23.150
+Then we'll see that.
+
+00:03:25.430 --> 00:03:27.110
+I don't even like them. Like that.
+
+00:03:28.840 --> 00:03:33.920
+82 one It wasn't even 82 at all, it was 81 48 I wanted to get into.
+
+00:03:36.250 --> 00:03:40.610
+Then we would have liked to have had a field called OKF 4.
+
+00:03:42.030 --> 00:03:44.213
+There is something you can do if milk doesn't help.
+
+00:03:44.213 --> 00:03:47.867
+Now I could have chosen to show the text. That's what we were talking about.
+
+00:03:47.867 --> 00:03:51.427
+Initially I just want to see the value of looking at the text. I think most of the time,
+
+00:03:51.427 --> 00:03:53.752
+So you know very well that nothing is nothing.
+
+00:03:53.752 --> 00:03:56.790
+So, it's often not one of those things you want to cross off,
+
+00:03:56.790 --> 00:03:59.875
+but here I can do it. Here I would like to be able to just put a
+
+00:03:59.875 --> 00:04:03.149
+cross and then get a hold of it with a checked point if we just go back.
+
+00:04:05.800 --> 00:04:07.320
+We can just go back to our manual.
+
+00:04:09.350 --> 00:04:12.470
+So you can see that it can be defined this way.
+
+00:04:14.320 --> 00:04:16.880
+In that section. Now we're going into the sections here.
+
+00:04:18.150 --> 00:04:21.057
+So you can actually, there is actually a section that can
+
+00:04:21.057 --> 00:04:23.550
+Help us with this final report. Check points.
+
+00:04:24.830 --> 00:04:27.110
+So we should try to go in and look into that.
+
+00:04:28.720 --> 00:04:31.760
+It was Our 80 46 shipping section.
+
+00:04:33.400 --> 00:04:36.076
+So down here, we'd like to finish with a
+
+00:04:36.076 --> 00:04:38.753
+workflow point, and that's what we're doing here.
+
+00:04:38.753 --> 00:04:43.102
+Now I've actually done it wrong, so I'll just delete it. We know,
+
+00:04:43.102 --> 00:04:44.720
+That's what our field is called here.
+
+00:04:46.510 --> 00:04:50.504
+You should take it right away because I have I did that before I got mine done
+
+00:04:50.504 --> 00:04:53.350
+workpoints so the field name I have created in shipping.
+
+00:04:54.960 --> 00:04:57.120
+I would like to have this completed with a workflow type.
+
+00:04:58.590 --> 00:05:02.030
+And now things are starting to come together. Not because of workflows.
+
+00:05:04.520 --> 00:05:08.040
+It was the shopping type.
+
+00:05:10.470 --> 00:05:13.150
+And the type you should copy, because that's the type you should copy
+
+00:05:13.150 --> 00:05:14.790
+now. Now you have to make it fit
+
+00:05:14.790 --> 00:05:17.870
+together. Now I had the sending okay, so now I have to create one there
+
+00:05:17.870 --> 00:05:20.230
+called dispatch. OK if this is going to make sense we can
+
+00:05:20.230 --> 00:05:20.670
+Just try.
+
+00:05:23.120 --> 00:05:25.411
+That's reception, so I actually have.
+
+00:05:25.411 --> 00:05:27.840
+I don't actually have such a point today, you see.
+
+00:05:29.440 --> 00:05:31.696
+Well, it will. It will actually be the same.
+
+00:05:31.696 --> 00:05:33.715
+like that. I'm not sure I'll do it right now
+
+00:05:33.715 --> 00:05:35.535
+a new one, because in reality it will also
+
+00:05:35.535 --> 00:05:37.040
+be the same as blogshop meanwhile but.
+
+00:05:37.510 --> 00:05:38.990
+But that will be just before the flash took place.
+
+00:05:40.350 --> 00:05:40.990
+AFS.
+
+00:05:41.870 --> 00:05:45.390
+I leave it warm yes sending.
+
+00:05:46.710 --> 00:05:49.030
+So it could just be called 51.
+
+00:05:50.430 --> 00:05:54.301
+And That's How It Made Sense, Even If I Got the Logic Right Here,
+
+00:05:54.301 --> 00:05:58.276
+because my sending it just came, yes, I actually did that the other way around
+
+00:05:58.276 --> 00:06:01.167
+you can see it. I should have actually called it 49,
+
+00:06:01.167 --> 00:06:05.194
+If that's what I'm supposed to send, I'll send, yes, I don't know.
+
+00:06:05.194 --> 00:06:08.550
+You can discuss that. Now it's called 49 and it's called AFS.
+
+00:06:10.110 --> 00:06:14.843
+And it's f first for you over there, so now I'd like to say my work
+
+00:06:14.843 --> 00:06:19.253
+The flow file AFS is related to the field over here called How.
+
+00:06:19.253 --> 00:06:22.950
+This is how we tie it right across so I can finish in between.
+
+00:06:24.550 --> 00:06:26.282
+Make it straight and sink it all the way in.
+
+00:06:26.282 --> 00:06:29.144
+Now I've done it with a sacrum. I would do that with all of them.
+
+00:06:29.144 --> 00:06:32.232
+If I have difficulty checking points, then I will create a view where I have
+
+00:06:32.232 --> 00:06:32.910
+the 7 check points.
+
+00:06:34.480 --> 00:06:37.337
+Out of one here yes so I can see inside my eighty-one.
+
+00:06:37.337 --> 00:06:41.675
+We can just go into a 40 so you could have your orders here and then you could have
+
+00:06:41.675 --> 00:06:45.114
+all his 7 check points here and then say they are OK along with his
+
+00:06:45.114 --> 00:06:49.400
+I should delete the shipping dates now that they've been created because you can never change them.
+
+00:06:50.790 --> 00:06:53.089
+Say, but then you want the 2 DETA you want
+
+00:06:53.089 --> 00:06:56.660
+in here and you want all your checkpoints and then you want to say that they were
+
+00:06:56.660 --> 00:07:00.475
+finished drinking finished it. Yes then you will have made big baskets if
+
+00:07:00.475 --> 00:07:04.193
+you now do it like the one over there then you want then you want to create
+
+00:07:04.193 --> 00:07:07.813
+everything down there then I want to set them all up so they're connected so I
+
+00:07:07.813 --> 00:07:11.481
+I'll finish it right here because then I don't have to go in now.
+
+00:07:11.481 --> 00:07:14.270
+Now they looked a little at Our workflow in 62 97 here.
+
+00:07:15.800 --> 00:07:17.680
+Now I can't remember who was the buyer here.
+
+00:07:18.150 --> 00:07:21.832
+But, here you can go in. Now, let's just look here for 2 seconds.
+
+00:07:21.832 --> 00:07:25.270
+I haven't been here before, but it's here before you actually go.
+
+00:07:26.960 --> 00:07:28.590
+No, but actually I would say one
+
+00:07:28.590 --> 00:07:29.080
+workflow on.
+
+00:07:31.480 --> 00:07:34.890
+Incoming more expensive than this, so that edge here So seen something more.
+
+00:07:34.890 --> 00:07:38.351
+Now we can just go over and find, then we'll just go over and find Our
+
+00:07:38.351 --> 00:07:41.160
+Shopping eye, I'll just close all this, this, this.
+
+00:07:42.830 --> 00:07:47.440
+So I can find a shopping cart. It was there and I can see my my
+
+00:07:47.440 --> 00:07:49.230
+The buyer's name is 10 zero one.
+
+00:07:51.390 --> 00:07:54.734
+So we'd like to see here as we can see. I have a lot of work 2 points here
+
+00:07:54.734 --> 00:07:57.571
+I can do it in here. I can go in and finish all of it.
+
+00:07:57.571 --> 00:07:57.910
+from there.
+
+00:07:59.720 --> 00:08:02.405
+Of course, a long time, but it's a little more hassle,
+
+00:08:02.405 --> 00:08:05.909
+because I don't have the same overview and that's why it's a bit
+
+00:08:05.909 --> 00:08:08.139
+smarter actually to do the inbound logistics,
+
+00:08:08.139 --> 00:08:09.960
+so you can follow up directly here.
+
+00:08:16.390 --> 00:08:17.870
+So we could try to take a look.
+
+00:08:19.750 --> 00:08:19.870
+Um.
+
+00:08:21.430 --> 00:08:22.350
+Now let's just look here.
+
+00:08:32.360 --> 00:08:35.211
+So you can see, then you have some checkpoint texts and then
+
+00:08:35.211 --> 00:08:38.115
+further also. So you actually also have the opportunity to
+
+00:08:38.115 --> 00:08:41.600
+Fill in your texts here so you all have the same options.
+
+00:08:41.990 --> 00:08:45.479
+But I think it's a good task. I think I'll leave you with that.
+
+00:08:45.479 --> 00:08:49.110
+here and then make some stupid ones and try them there. The only thing I want to show you now.
+
+00:08:51.230 --> 00:08:53.861
+And it's not. It's actually because I'm thinking,
+
+00:08:53.861 --> 00:08:56.769
+that you should be able to do it. But I will show you the shipping file,
+
+00:08:56.769 --> 00:08:59.492
+because now it's on the list there too. It's the one down here.
+
+00:08:59.492 --> 00:09:03.093
+I'm down and trying to look at it. Yes, it's a bit difficult, but let's try to
+
+00:09:03.093 --> 00:09:05.585
+look at it. Now we have made an example of Our
+
+00:09:05.585 --> 00:09:08.909
+What was it called? 14 Our shopping area. What was it called? I knew it well.
+
+00:09:08.909 --> 00:09:11.494
+I just want to change it up a little bit,
+
+00:09:11.494 --> 00:09:14.910
+Because I could imagine that there were 2 people who had the same split here.
+
+00:09:16.160 --> 00:09:18.080
+So if I just said that one.
+
+00:09:18.990 --> 00:09:21.950
+Something like that, we can just make one more. It's called et et.
+
+00:09:23.780 --> 00:09:30.380
+A 100 no we take it there it doesn't exist a 2 color if it didn't make it.
+
+00:09:32.150 --> 00:09:33.070
+600.
+
+00:09:35.090 --> 00:09:39.957
+Now we just need to make sure if I couldn't get 2 that hit the same split
+
+00:09:39.957 --> 00:09:44.155
+here 50 24 the 2 down here they should hit the same split not so now we have.
+
+00:09:44.155 --> 00:09:48.292
+Now we actually have 3 splits, we already had that because I had
+
+00:09:48.292 --> 00:09:52.125
+I ended up splitting them up so much that we had 3 splits,
+
+00:09:52.125 --> 00:09:56.810
+but now I still have 3 splits, but there are 2 lines on one split.
+
+00:09:57.630 --> 00:10:01.385
+Just like you see data-wise, there's a difference, we can't just go
+
+00:10:01.385 --> 00:10:04.150
+over and see it in 81 48. It should be like this.
+
+00:10:05.430 --> 00:10:10.630
+There are still only 3 splits, so you can see what one split consists of here.
+
+00:10:12.070 --> 00:10:18.048
+Of 2 colors, there are 4 lines on the order, but there must be 3 lines in the split.
+
+00:10:18.048 --> 00:10:20.310
+We can see that here.
+
+00:10:24.560 --> 00:10:29.080
+So what we can look at is not I think we're a bit like TV chefs again here.
+
+00:10:31.040 --> 00:10:33.080
+Because I have prepared a little bit.
+
+00:00:00.000 --> 00:00:00.000
+00:10:38.920 --> 00:10:41.941 Where I've cheated a little bit and wrapped this up,
+
+00:10:41.941 --> 00:10:45.859
+so you can see the result because normally it doesn't look quite like this.
+
+00:10:45.859 --> 00:10:49.049
+Normally, you see most of the long long line out here,
+
+00:10:49.049 --> 00:10:52.239
+Like basically, so you have in reality normally,
+
+00:10:52.239 --> 00:10:54.981
+then you have the order number on a line of its own.
+
+00:10:54.981 --> 00:10:58.451
+You have the split number in line by itself, and then you have everything.
+
+00:10:58.451 --> 00:11:03.040
+So you have all these many numbers out here, what they mean. There are 99 zeros and one number.
+
+00:11:04.000 --> 00:11:06.400
+What they mean is, which line do I apply for?
+
+00:11:07.740 --> 00:11:13.050
+And the 4th position is line 4, the 5th position is line 5,
+
+00:11:13.050 --> 00:11:19.853
+so that means line one it is in split zero line 2 is in split zero line 3 is in
+
+00:11:19.853 --> 00:11:26.740
+split zero line 4 is split one or line 4 is split, so in this case it is split.
+
+00:11:28.800 --> 00:11:30.877
+Which gets here so you can say split the number stands
+
+00:11:30.877 --> 00:11:31.440
+actually here.
+
+00:11:35.470 --> 00:11:38.488
+And so it counts one. There are actually only 99 numbers.
+
+00:11:38.488 --> 00:11:43.479
+Now I have been working on creating and linking this file with a file there
+
+00:11:43.479 --> 00:11:46.190
+just had numbers from 1-99 and then I said.
+
+00:11:47.960 --> 00:11:51.918
+Out here that It's Such a little magic that to get the lines down,
+
+00:11:51.918 --> 00:11:56.000
+because if we just go into the right file where it's just that.
+
+00:11:59.710 --> 00:12:04.289
+Not That's a question for today. We can just try to see how it looks
+
+00:12:04.289 --> 00:12:04.470
+out.
+
+00:00:00.000 --> 00:00:00.000
+00:12:09.490 --> 00:12:12.551 So you can see if we took the train Our line down here, you can see.
+
+00:12:12.551 --> 00:12:14.130
+So you have these 3 lines on it.
+
+00:12:15.030 --> 00:12:18.709
+And you can see shopping cart. Yes yes, the first split zero.
+
+00:12:18.709 --> 00:12:22.790
+It's actually You can see that There's line one is in split zero.
+
+00:12:25.290 --> 00:12:30.351
+Split one there you go to line 3 and 4 you can see it in the position here and
+
+00:12:30.351 --> 00:12:33.537
+split 2 That's line 2, so that's how it reads.
+
+00:12:33.537 --> 00:12:37.099
+It's a bit of a difficult way. It's not quite right.
+
+00:12:37.099 --> 00:12:42.097
+It's a little difficult that one so That's what I've done because That's It's
+
+00:12:42.097 --> 00:12:43.409
+This is what it looks like.
+
+00:12:44.960 --> 00:12:47.878
+And that, you can do that when you're a programmer or Niels or
+
+00:12:47.878 --> 00:12:49.696
+Frank, you can get bored with this.
+
+00:12:49.696 --> 00:12:52.868
+together afterwards with something else. But for most customers this will be
+
+00:12:52.868 --> 00:12:54.560
+It's completely hopeless to work with this file.
+
+00:12:55.430 --> 00:12:59.575
+A little difficult because it's difficult to translate, because they look at their everyday lives.
+
+00:12:59.575 --> 00:13:02.670
+There they look down at some purchasing agreements and lines,
+
+00:13:02.670 --> 00:13:06.483
+so what I've done over here. It's really just I've formed a
+
+00:13:06.483 --> 00:13:11.015
+little movie with the numbers from 1-100 and then I said that if field number 4 It
+
+00:13:11.015 --> 00:13:13.557
+if a is a number, then there is line 4 so look,
+
+00:13:13.557 --> 00:13:17.150
+So I've actually looked at all the boxes and then said you're one.
+
+00:13:18.590 --> 00:13:21.653
+I can show you this, it's a little tricky.
+
+00:13:21.653 --> 00:13:26.306
+It's a little advanced it can run it's a little bit and I actually said that
+
+00:13:26.306 --> 00:13:26.590
+if.
+
+00:13:28.320 --> 00:13:33.732
+If what is it called my if I have a number in my field for 1-100 then it should
+
+00:13:33.732 --> 00:13:39.211
+then it has to find what is it called the value of the first belt and then if It
+
+00:13:39.211 --> 00:13:44.357
+is 1 2 numbers then it must find the value of what is in position 2 It is a
+
+00:13:44.357 --> 00:13:45.559
+tretal position 3.
+
+00:13:46.230 --> 00:13:49.990
+So in that way I was actually able to show down to the line level.
+
+00:13:51.640 --> 00:13:54.952
+How it will be because you can see down here you will get 4 lines instead
+
+00:13:54.952 --> 00:13:57.503
+for 3 lines here, but it's still the background and the
+
+00:13:57.503 --> 00:14:00.950
+who is crazy about that one anyway. I don't expect you to be able to do that one.
+
+00:14:00.950 --> 00:14:03.233
+make it. Can you come and ask about it one day if
+
+00:14:03.233 --> 00:14:06.814
+you need it, you can also because It's just once and for all that you have it
+
+00:14:06.814 --> 00:14:09.097
+done here, that's it, it's much easier now
+
+00:14:09.097 --> 00:14:12.320
+to tie the divisive together with the inclusions afterwards if you want.
+
+00:14:13.680 --> 00:14:17.522
+It's a bit about that, you shouldn't be able to just say, "That's not it."
+
+00:14:17.522 --> 00:14:22.252
+It wasn't exactly or I understand it, I actually love it and the reason
+
+00:14:22.252 --> 00:14:26.272
+for me to show you. It was actually to show you the logic
+
+00:14:26.272 --> 00:14:29.819
+The 99 numbers that are like this are a little easier to see here.
+
+00:14:29.819 --> 00:14:32.480
+Hopefully you have a split number zero.
+
+00:14:34.080 --> 00:14:36.360
+Located on line one because there is a one in the first one.
+
+00:14:37.960 --> 00:14:41.816
+And so on, so It's just to understand that ship DTA sees
+
+00:14:41.816 --> 00:14:44.200
+It looks like that and it's a little crazy.
+
+00:14:45.350 --> 00:14:46.830
+I think we mentioned one more file.
+
+00:14:49.200 --> 00:14:50.080
+That we have seen this.
+
+00:14:52.760 --> 00:14:57.886
+It's because what's written there isn't what should be written here that should have
+
+00:14:57.886 --> 00:15:03.078
+stood HVD yes it should there so in the upper It was castle HVDHVD to a so one
+
+00:15:03.078 --> 00:15:08.401
+also has a main file so those 2 but try looking at them sometimes it's fun
+
+00:15:08.401 --> 00:15:13.856
+I'm just allowed to play with it myself, but this second one is a bit difficult because you have to
+
+00:15:13.856 --> 00:15:19.311
+just look what understand what it means all those 99 numbers that don't like that immediately
+
+00:15:19.311 --> 00:15:19.640
+locked.
+
+00:15:20.030 --> 00:15:23.975
+But I think hopefully it has given a good picture of what shipping is.
+
+00:15:23.975 --> 00:15:25.110
+inbound logistics can.
+
+00:15:26.880 --> 00:15:30.460
+What I think you should try to do is it's a view where you just get
+
+00:15:30.460 --> 00:15:33.182
+I made a few fields, you can do the same if you want.
+
+00:15:33.182 --> 00:15:36.906
+But now we probably did container size in your environment yesterday and maybe that gives
+
+00:15:36.906 --> 00:15:39.198
+a little more sense. That could be nice too.
+
+00:15:39.198 --> 00:15:42.874
+It was just trying to get it done, so you try to finish a few checks.
+
+00:15:42.874 --> 00:15:44.880
+points here and change some dates.
+
+00:00:00.000 --> 00:00:00.000
+00:15:48.110 --> 00:15:50.512 Trying a little because it's really useful.
+
+00:15:50.512 --> 00:15:54.807
+But try playing a little with the ones we had in there and if you look at them,
+
+00:15:54.807 --> 00:15:58.948
+design in there where you design your your inbound logistics there you can choose the
+
+00:15:58.948 --> 00:16:03.089
+here texts because These are the texts that you would also like to be able to write to
+
+00:16:03.089 --> 00:16:05.390
+your checkpoint in between. So try to find them.
+
+00:16:06.960 --> 00:16:10.157
+You could possibly start with is finished between sometime around the mid-1997s and see
+
+00:16:10.157 --> 00:16:13.603
+What does it look like, what are the lyrics? Then you can go down and We can do that.
+
+00:16:13.603 --> 00:16:15.513
+seen. I might just have to write them down
+
+00:16:15.513 --> 00:16:15.679
+her.
+
+00:16:16.270 --> 00:16:21.334
+So you could go down and maybe write must 2 in what is it called shopping?
+
+00:16:21.334 --> 00:16:22.750
+But these 2 files.
+
+00:16:24.490 --> 00:16:29.696
+Not in a checkpoint OK so those from the purchasing order so you see them down here so
+
+00:16:29.696 --> 00:16:34.902
+if you have these 2 These are some difficult files to work with because
+
+00:16:34.902 --> 00:16:39.770
+Shipping is difficult because it's different with these strange splits.
+
+00:16:40.710 --> 00:16:44.612
+Yes but but just so you get a sense of what's down there and why
+
+00:16:44.612 --> 00:16:46.888
+It is there and the most important thing for you.
+
+00:16:46.888 --> 00:16:50.698
+It's about understanding those levels that you decide for yourself what level it should be.
+
+00:16:50.698 --> 00:16:51.070
+be on.
+
+00:16:52.960 --> 00:16:55.191
+Yes, if you play around with changing your split levels,
+
+00:16:55.191 --> 00:16:58.864
+so go ahead and place a new order afterwards and see how it goes. That's because I think
+
+00:16:58.864 --> 00:17:01.654
+I don't think it always has the ability to fix the old ones.
+
+00:17:01.654 --> 00:17:05.141
+When you change the split levels, and it's not something you do like that. It is.
+
+00:17:05.141 --> 00:17:07.280
+This is typical when deciding on a publisher.
+
+00:17:08.670 --> 00:17:11.230
+So just make a new order if you could dream up a new kind of split.
+
+00:17:12.950 --> 00:17:13.430
+Yes.
+
+00:17:15.120 --> 00:17:18.360
+Try to get out of them once. That was great.
+
+00:00:00.000 --> 00:00:00.000
+00:17:23.880 --> 00:17:26.760 But that's something. It's a smart way.

@@ -1,0 +1,89 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%);
+  color: #222;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.file-label {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #444;
+  text-align: left;
+}
+
+input[type="file"] {
+  padding: 8px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+input[type="file"]:focus,
+input[type="file"]:hover {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  font-weight: 600;
+  padding: 12px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 12px rgba(0,123,255,0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+  box-shadow: 0 8px 20px rgba(0,86,179,0.6);
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}

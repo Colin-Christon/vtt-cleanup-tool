@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>VTT File Processor</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Upload Your VTT Files</h1>
+    <form id="uploadForm" action="/upload" method="POST" enctype="multipart/form-data">
+      <label for="vttFiles" class="file-label">Select one or more VTT files</label>
+      <input id="vttFiles" type="file" name="vttFiles" multiple required accept=".vtt" />
+      <button type="submit">Upload & Download ZIP</button>
+    </form>
+  </div>
+</body>
+</html>

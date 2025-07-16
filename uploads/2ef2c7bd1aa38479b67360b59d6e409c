@@ -1,0 +1,2767 @@
+WEBVTT
+
+00:00:02.390 --> 00:00:06.393
+In his life as a shipping clerk, so when you look for It's p 4 then you will
+
+00:00:06.393 --> 00:00:07.950
+you see both names occur.
+
+00:00:09.560 --> 00:00:12.075
+We have been through the previous processes.
+
+00:00:12.075 --> 00:00:15.095
+We have gone through it and made order proposals,
+
+00:00:15.095 --> 00:00:18.561
+and then we've made some shopping carts. Now we've got there,
+
+00:00:18.561 --> 00:00:21.301
+that the shopping malls must come home. That is,
+
+00:00:21.301 --> 00:00:25.382
+We have a supplier out east, for example, who has received 7 different
+
+00:00:25.382 --> 00:00:28.234
+shopping malls. He now delivers some of the lines from
+
+00:00:28.234 --> 00:00:29.520
+more of those orders.
+
+00:00:30.350 --> 00:00:33.227
+In one in a container and that ends up being it,
+
+00:00:33.227 --> 00:00:37.117
+we call an incoming shipment, so here we have to collect those
+
+00:00:37.117 --> 00:00:40.794
+order lines from these different orders together into one shipment,
+
+00:00:40.794 --> 00:00:44.631
+that ends up in a container. Well, and that's actually that's the concept,
+
+00:00:44.631 --> 00:00:46.390
+we use the input logic to.
+
+00:00:47.510 --> 00:00:52.197
+Can you say, so It's a new level, where before we talked about goods and about
+
+00:00:52.197 --> 00:00:54.841
+purchase order, stalls and purchase order lines,
+
+00:00:54.841 --> 00:00:57.905
+so we are now in a new, new kind of format,
+
+00:00:57.905 --> 00:01:01.871
+where we are actually talking about a container that contains a level,
+
+00:01:01.871 --> 00:01:04.936
+which consists of a lot of different product potential,
+
+00:01:04.936 --> 00:01:08.001
+potentially also a lot of different shopping options,
+
+00:01:08.001 --> 00:01:11.726
+but maybe not all the order lines how some purchasing types,
+
+00:01:11.726 --> 00:01:13.710
+that's what it's often used for too.
+
+00:01:14.680 --> 00:01:16.280
+In many companies. These are interpretations.
+
+00:01:16.550 --> 00:01:19.312
+When they have to come home and into the world of interpretation.
+
+00:01:19.312 --> 00:01:22.184
+The items there are not necessarily super interesting.
+
+00:01:22.184 --> 00:01:24.836
+There the customs position codes are very interesting,
+
+00:01:24.836 --> 00:01:28.316
+if it was socks and there were 7 different kinds of socks,
+
+00:01:28.316 --> 00:01:31.852
+then they would probably all have the same customs position god,
+
+00:01:31.852 --> 00:01:34.945
+so in the customs world it could just be a line,
+
+00:01:34.945 --> 00:01:39.199
+so we can risk having 20 purchasing order lines with 20 different item numbers,
+
+00:01:39.199 --> 00:01:41.630
+which can actually become a line of 12.
+
+00:00:00.000 --> 00:00:00.000
+00:01:44.630 --> 00:01:48.400 You could say shipping or inbound logistics will always split into
+
+00:01:48.400 --> 00:01:52.011
+input number as a starting point and thus also on the supplier.
+
+00:01:52.011 --> 00:01:56.419
+But besides that, you can choose your own level depending on what you want.
+
+00:01:56.419 --> 00:01:59.393
+use it because 12 is an example of something you can
+
+00:01:59.393 --> 00:02:03.163
+use it for. But you can easily, you can easily handle 12,
+
+00:02:03.163 --> 00:02:06.615
+even if you don't just look at the customs research frog as a split,
+
+00:02:06.615 --> 00:02:09.430
+which you can also look at it a little more and then see.
+
+00:02:10.240 --> 00:02:13.497
+Scroll down to the articles and see what actually comes home in it.
+
+00:02:13.497 --> 00:02:14.040
+view Shall we?
+
+00:02:15.910 --> 00:02:19.404
+In shipping, that's what we're really behind all this.
+
+00:02:19.404 --> 00:02:22.039
+Now we have a setup where we decide,
+
+00:02:22.039 --> 00:02:25.935
+what level we want to view our information at. Once we have done that,
+
+00:02:25.935 --> 00:02:30.117
+then you actually create a file called ship DCA and that. It's a file,
+
+00:02:30.117 --> 00:02:32.809
+as one, as one can actually influence appearance,
+
+00:02:32.809 --> 00:02:36.877
+that does not depend on which fields you create and need.
+
+00:02:36.877 --> 00:02:40.829
+Because you can add fields in shipping yourself, and you often do that.
+
+00:02:41.680 --> 00:02:42.000
+For example.
+
+00:02:42.870 --> 00:02:45.969
+A container type that can also be used in the shipping concept.
+
+00:02:45.969 --> 00:02:50.320
+What is it called, make some automatic updates of what is it called?
+
+00:02:50.320 --> 00:02:52.346
+that? The check points we made on
+
+00:02:52.346 --> 00:02:56.995
+the purchasing order so that via this incoming logistics client you can actually
+
+00:02:56.995 --> 00:03:01.167
+Complete your checkpoints directly into biological shipping.
+
+00:03:01.167 --> 00:03:04.266
+What you could almost call the shipping client.
+
+00:03:04.266 --> 00:03:06.710
+That's how it started to be in its time.
+
+00:03:07.520 --> 00:03:11.240
+But it looks like the creation of a collection of 82 51 products.
+
+00:03:12.030 --> 00:03:14.994
+So it's a bit the same. It's a bit the same citizen.
+
+00:03:14.994 --> 00:03:18.106
+Yes, it's a bit like the same feeling when you work with it.
+
+00:03:18.106 --> 00:03:21.910
+You have a place where you decide which articles you want to work with or
+
+00:03:21.910 --> 00:03:25.862
+sorry which fields you want to work with and then you show those fields in a view
+
+00:03:25.862 --> 00:03:29.715
+as you can tell, the east is called, for example, now that logistics has been concluded
+
+00:03:29.715 --> 00:03:32.630
+and then you have chosen which things you want to see inside it.
+
+00:03:34.400 --> 00:03:37.038
+And then you have navpplication for that, and then you have an application,
+
+00:03:37.038 --> 00:03:39.480
+When you look at it that way, it feels a bit like the same thing.
+
+00:03:39.990 --> 00:03:43.070
+That's what's special about shipping. It's this level, That's different,
+
+00:03:43.070 --> 00:03:45.990
+where we can define the level ourselves, and we can also define some extra
+
+00:03:45.990 --> 00:03:48.390
+fields like a container size and those types of things,
+
+00:03:48.390 --> 00:03:50.270
+And that's what we're going to try to do today.
+
+00:03:52.160 --> 00:03:53.480
+It was just another approach.
+
+00:03:56.400 --> 00:03:56.680
+Yes.
+
+00:03:59.230 --> 00:04:03.323
+I've been working as a TVP again, and we can start right away in that application.
+
+00:04:03.323 --> 00:04:06.816
+It's called 80 46 80 46. It's just a general register.
+
+00:04:06.816 --> 00:04:10.965
+You will be able to find all the same ones here within the first 20 within shipping.
+
+00:04:10.965 --> 00:04:15.549
+Yes, it just collects the general shipping information you will be able to find in 60. 20.
+
+00:04:17.400 --> 00:04:19.954
+For a start, let's just take the policies here.
+
+00:04:19.954 --> 00:04:23.639
+There is only one line per company here, and you can see there you can create
+
+00:04:23.639 --> 00:04:27.423
+some things about currency price list codes. We don't need to do that today,
+
+00:04:27.423 --> 00:04:28.159
+So we just have.
+
+00:04:28.670 --> 00:04:32.659
+Danish here because That's what we do. It's actually also the most normal thing.
+
+00:04:32.659 --> 00:04:36.376
+I haven't seen anyone using this set it up. That's important.
+
+00:04:36.376 --> 00:04:40.803
+It's that we would like it that when we receive an order, it asks now
+
+00:04:40.803 --> 00:04:43.208
+but would you like to update your shipping status?
+
+00:04:43.208 --> 00:04:46.432
+We will be working with some status codes in shipping,
+
+00:04:46.432 --> 00:04:50.695
+which is supposed to say how far we are in the process of going from zero to
+
+00:04:50.695 --> 00:04:52.390
+finish this product.
+
+00:04:53.360 --> 00:04:54.640
+And we would like to update the status.
+
+00:04:55.310 --> 00:04:58.935
+When we receive an order and it is finished and what I have actually chosen
+
+00:04:58.935 --> 00:05:01.799
+here. There I have chosen that It is updated to 80 because that
+
+00:05:01.799 --> 00:05:04.708
+eighty is the status code one uses in the purchase order world in terms of status
+
+00:05:04.708 --> 00:05:08.154
+cancels out. When you have heat receivers, it is called the same and then you need
+
+00:05:08.154 --> 00:05:10.974
+users not to be confused that no money is being made,
+
+00:05:10.974 --> 00:05:12.630
+status or is it a 2 type status?
+
+00:05:14.030 --> 00:05:18.121
+Because in the purchasing world there are some status codes that like a lot of it
+
+00:05:18.121 --> 00:05:21.281
+I have created it. Now I have printed it and now I have
+
+00:05:21.281 --> 00:05:25.114
+reported it completed and then there is something about the production being completed there
+
+00:05:25.114 --> 00:05:28.221
+also need to provide some different status and shipping status.
+
+00:05:28.221 --> 00:05:32.002
+The codes could be completely different, in principle, just after the message is finished.
+
+00:05:32.002 --> 00:05:36.198
+Here I have chosen to include here that it will be 1-1 the same in other places
+
+00:05:36.198 --> 00:05:38.270
+or he was chosen to It is the same.
+
+00:05:39.080 --> 00:05:41.160
+Numerical value others then it's something or other.
+
+00:05:41.510 --> 00:05:44.649
+One or something I can watch whatever I want. I can just watch 99.
+
+00:05:44.649 --> 00:05:48.585
+But what was on match it just hits because it matchups yes when in shopping malls
+
+00:05:48.585 --> 00:05:52.287
+in 65 18 when you're done with it when it arrives when an order is finished with it then
+
+00:05:52.287 --> 00:05:56.083
+it raises its status to 80 and that's why I choose the same one because then it's so
+
+00:05:56.083 --> 00:05:59.270
+is it logical for all learned status 80 It is both fair plan.
+
+00:06:01.040 --> 00:06:03.344
+Then we have something. Should we do an automatic split?
+
+00:06:03.344 --> 00:06:06.940
+It has to be there and what is the level we want to split at? So that means,
+
+00:06:06.940 --> 00:06:08.968
+what level will we see inside that client,
+
+00:06:08.968 --> 00:06:10.720
+When should we look at all our products?
+
+00:06:11.230 --> 00:06:12.030
+And what I'm saying?
+
+00:06:13.800 --> 00:06:17.383
+Yes, and here we usually don't want to look at colors, in fact there are many,
+
+00:06:17.383 --> 00:06:21.171
+who choose not to even look at necessarily at the goods. It can be.
+
+00:06:21.171 --> 00:06:24.089
+It's enough to look at the date, when they'll come home and
+
+00:06:24.089 --> 00:06:27.161
+customs position code? Now there is a warehouse number too so that's it
+
+00:06:27.161 --> 00:06:31.359
+would be very normal to just have it on the customs position code because there are many
+
+00:06:31.359 --> 00:06:34.328
+who primarily uses it for 12 now just for our example.
+
+00:06:34.328 --> 00:06:37.656
+Now we don't have a lot of 12 position codes in our test environment here,
+
+00:06:37.656 --> 00:06:39.960
+so now I just take the first 3 item fields.
+
+00:06:40.510 --> 00:06:44.698
+And splitters It's actually pretty cool, I think in many companies you see
+
+00:06:44.698 --> 00:06:48.783
+which products It is, as you actually see. Product lines like that it is easier to
+
+00:06:48.783 --> 00:06:51.420
+work on recognizing. What kind of order is that,
+
+00:06:51.420 --> 00:06:54.005
+we work and so on, but you have to understand,
+
+00:06:54.005 --> 00:06:58.038
+you decide what level and in principle we could drop all those
+
+00:06:58.038 --> 00:07:01.761
+goods, then we could just see the purchasing order, i.e. supplier purchasing orders,
+
+00:07:01.761 --> 00:07:03.830
+customs position code OK how many pieces?
+
+00:07:05.400 --> 00:07:07.995
+How dependent on what, whoever it is and how you like
+
+00:07:07.995 --> 00:07:09.000
+I'll show it here.
+
+00:07:09.510 --> 00:07:11.466
+Yes, it depends on your needs.
+
+00:07:11.466 --> 00:07:13.925
+define, and there it will be different from
+
+00:07:13.925 --> 00:07:15.230
+business to business.
+
+00:07:16.800 --> 00:07:20.080
+Now we have chosen this and that. It's actually an excellent starting point.
+
+00:07:23.520 --> 00:07:27.852
+We just need those status codes status codes. I've chosen to create here.
+
+00:07:27.852 --> 00:07:32.184
+There I have made one called zero when it just creates again it is like in
+
+00:07:32.184 --> 00:07:35.000
+65 18 a shopping guardian This zero has been created.
+
+00:07:35.830 --> 00:07:39.529
+And then we end up in the eighties received and basically finished.
+
+00:07:39.529 --> 00:07:44.070
+So you can have all sorts of intermediate status codes here. We typically want those.
+
+00:07:44.070 --> 00:07:46.928
+We will typically inherit these from our workflow points,
+
+00:07:46.928 --> 00:07:50.180
+the ones we made during the shopping spree, so that means, wow,
+
+00:07:50.180 --> 00:07:52.030
+I just need to get this viewer.
+
+00:07:53.430 --> 00:07:56.166
+That is, ours, what we called workflow types here.
+
+00:07:56.166 --> 00:07:57.510
+We had all of them there.
+
+00:07:59.110 --> 00:08:02.200
+And we can actually say here: What is going to happen?
+
+00:08:02.200 --> 00:08:05.910
+which shipping status code should be used to approve payment right away.
+
+00:08:07.590 --> 00:08:10.597
+Now it says 70 here. It only works if I have it too
+
+00:08:10.597 --> 00:08:13.910
+over here a status 70 over here. Fortunately I have created that.
+
+00:08:15.600 --> 00:08:18.718
+So you could say if I have created some checkpoints
+
+00:08:18.718 --> 00:08:21.782
+on my purchase order, I have to go through these and those points,
+
+00:08:21.782 --> 00:08:26.214
+then when I approve finished or an item from my purchase order in a
+
+00:08:26.214 --> 00:08:29.825
+checkpoint system there, then it can automatically raise the shipping status
+
+00:08:29.825 --> 00:08:33.381
+which can be selected within the inbound logistics of the application.
+
+00:08:33.381 --> 00:08:34.639
+I want to see all orders.
+
+00:08:35.390 --> 00:08:38.830
+There are from status 30 to status 40.
+
+00:08:40.400 --> 00:08:42.452
+Or for example. I want to see all those there,
+
+00:08:42.452 --> 00:08:45.765
+where the production sample is OK, but where we have not received documents
+
+00:08:45.765 --> 00:08:48.098
+yet, then you will be able to choose it out in this way,
+
+00:08:48.098 --> 00:08:51.223
+so these codes are connected. But it's a bit crazy,
+
+00:08:51.223 --> 00:08:53.696
+because you have to create them a bit twice, you could say,
+
+00:08:53.696 --> 00:08:56.635
+because they exist both in the workflow world and in the shipping world,
+
+00:08:56.635 --> 00:08:59.761
+so they just need to be connected there. They don't have to have the same numbers
+
+00:08:59.761 --> 00:09:01.814
+or what. What should you say status codes?
+
+00:09:01.814 --> 00:09:05.640
+But that's what I've chosen so that it's connected that it will be the most
+
+00:09:05.640 --> 00:09:06.480
+Logical I think.
+
+00:09:07.590 --> 00:09:10.709
+So it was the skippering status codes that I have chosen to create here,
+
+00:09:10.709 --> 00:09:14.048
+so you can sort of pick and choose and then say how far along I am in my collection,
+
+00:09:14.048 --> 00:09:15.630
+So in my process and this order.
+
+00:09:17.240 --> 00:09:20.021
+That I can keep an eye on it. There are some form names.
+
+00:09:20.021 --> 00:09:23.760
+It's not something we're going to think about very much. It's something to print out.
+
+00:09:24.830 --> 00:09:27.641
+I'm not aware that it is used very much.
+
+00:09:27.641 --> 00:09:31.143
+These prints are created for shipping standard prints.
+
+00:09:31.143 --> 00:09:35.546
+It will most often be something you will work with through data mining and extracting data,
+
+00:09:35.546 --> 00:09:39.950
+because what I hear is that you'd rather have some data out of yourself
+
+00:09:39.950 --> 00:09:42.550
+or in 2 ways that give you an overview of it.
+
+00:09:43.990 --> 00:09:44.510
+Exactly.
+
+00:00:00.000 --> 00:00:00.000
+00:09:48.710 --> 00:09:50.190 I'll just save this one for a moment.
+
+00:09:53.030 --> 00:09:56.053
+What I want to show you though is this one.
+
+00:09:56.053 --> 00:10:00.813
+There is a section here where we can create a policy separately for a type
+
+00:10:00.813 --> 00:10:02.550
+Purchasing types. An order type.
+
+00:10:04.120 --> 00:10:06.118
+Now I had an order type called p for test,
+
+00:10:06.118 --> 00:10:08.458
+and it could well be different. So the trial orders.
+
+00:10:08.458 --> 00:10:11.562
+I'm not really that interested in them. I'm not going to tell them about it.
+
+00:10:11.562 --> 00:10:13.986
+necessarily. It will be such an immediate interpretation,
+
+00:10:13.986 --> 00:10:17.516
+so at least they're not on 12. Then I don't have to look at them at all
+
+00:10:17.516 --> 00:10:18.240
+so detailed.
+
+00:10:18.870 --> 00:10:23.218
+I just need to know. There are some in the term I have chosen here and then say them.
+
+00:10:23.218 --> 00:10:27.512
+If I just have to play on a date, then it's enough for me if I
+
+00:10:27.512 --> 00:10:31.752
+I have an order with 7 lines so I don't need to know which items.
+
+00:10:31.752 --> 00:10:34.143
+is because I get one of each of those who try,
+
+00:10:34.143 --> 00:10:37.405
+so I really just need to know that the bike will arrive one day,
+
+00:10:37.405 --> 00:10:41.699
+so It is also an option to have a separate split on a shopping cart
+
+00:10:41.699 --> 00:10:45.830
+The type roles are not crucial either, so we actually skip those too.
+
+00:10:46.600 --> 00:10:49.380
+So you have some things up here called valid values for numeric and
+
+00:10:49.380 --> 00:10:49.960
+character fields?
+
+00:10:50.590 --> 00:10:53.431
+In reality it looked like this. Now I can try to show a
+
+00:10:53.431 --> 00:10:55.190
+example of what it could be up here.
+
+00:10:57.080 --> 00:11:01.208
+There you can see There is something about what type of transport and so on they are here and you
+
+00:11:01.208 --> 00:11:04.458
+can also look down here. There are some tax centers these things
+
+00:11:04.458 --> 00:11:08.638
+It's something you use over and over again when we're going to start with info 12 so I think they
+
+00:11:08.638 --> 00:11:11.425
+You're running through with Lone, is that someone you have?
+
+00:11:11.425 --> 00:11:15.191
+No, they are standard and that's actually someone. We have that.
+
+00:11:15.191 --> 00:11:19.319
+The tax authorities have these tax centers, so it's in some places.
+
+00:11:20.390 --> 00:11:24.145
+What what? Whomever deals with interpretations can
+
+00:11:24.145 --> 00:11:25.590
+say entry points.
+
+00:11:27.480 --> 00:11:30.059
+Yes, I saw that. It's someone who is basically standard.
+
+00:11:30.059 --> 00:11:32.161
+these ones. We're not going to mess with them.
+
+00:11:32.161 --> 00:11:34.835
+directly from here, but we're going to work with what they
+
+00:11:34.835 --> 00:11:37.319
+actually, because there are actually flex fields here.
+
+00:11:37.319 --> 00:11:40.520
+These are just some We have made a little standard as flex fields.
+
+00:11:42.360 --> 00:11:45.844
+And flexfields them. These are some fields, if for example you have a
+
+00:11:45.844 --> 00:11:47.200
+product correction and would like to.
+
+00:11:48.070 --> 00:11:51.314
+Now we had in Sweden. There we had a special flex field,
+
+00:11:51.314 --> 00:11:55.878
+because on the Swedish goods there was something called a Swedish standard. It was.
+
+00:11:55.878 --> 00:12:00.386
+It was a very special thing in Sweden, when you have to make things for a
+
+00:12:00.386 --> 00:12:03.136
+hospital, the State has defined a
+
+00:12:03.136 --> 00:12:06.160
+measurement chart on a t-shirt. It should look like this and this.
+
+00:12:06.160 --> 00:12:07.590
+It is a Swedish standard.
+
+00:12:08.270 --> 00:12:12.278
+And that field doesn't exist in aspect 4. We haven't had anyone else do that.
+
+00:12:12.278 --> 00:12:15.798
+made, so that field we have made. And when you make such a field as you
+
+00:12:15.798 --> 00:12:18.878
+need yourself that no one else needs, that's what they say,
+
+00:12:18.878 --> 00:12:22.790
+then it's a flex field you do it in it's called and that's it That's what we
+
+00:12:22.790 --> 00:12:25.234
+So little can call Our mini stick you can say,
+
+00:12:25.234 --> 00:12:28.461
+because here we can, in principle, create all possible fields,
+
+00:12:28.461 --> 00:12:31.150
+which we can link to We have which is customer special.
+
+00:12:31.790 --> 00:12:34.834
+OK in that way, so it really is, as I said, a lot
+
+00:12:34.834 --> 00:12:38.573
+flexible. These are flex fields, and they can also be used for
+
+00:12:38.573 --> 00:12:40.550
+inbound logistics slash shipping.
+
+00:12:41.790 --> 00:12:45.189
+Now I want to show you the very general application for flexfields.
+
+00:12:45.189 --> 00:12:48.790
+It's called one hundred and sixty-one 40. You could have created it over in
+
+00:12:48.790 --> 00:12:51.226
+these, but there's actually no reason
+
+00:12:51.226 --> 00:12:54.980
+So now I'm showing the very general one, where flexfields are most often made.
+
+00:12:54.980 --> 00:12:58.886
+It's on the final master's degree that I told you about Swedish standards,
+
+00:12:58.886 --> 00:13:02.590
+I would have gone into the master's degree and then said this.
+
+00:13:04.960 --> 00:13:08.800
+I could call it SVSTD if I were to create it for textiles.
+
+00:13:09.350 --> 00:13:13.699
+My life It's just what you It is. I don't think too It's a name for
+
+00:13:13.699 --> 00:13:17.993
+a field so that it it it should make sense you can say when you create
+
+00:13:17.993 --> 00:13:20.949
+a field here, then you can define some types of strings.
+
+00:13:20.949 --> 00:13:24.852
+Well, there you have it that they can be either a long 30 long or 70 long.
+
+00:13:24.852 --> 00:13:29.369
+These are some standards we have for some files with how many characters
+
+00:13:29.369 --> 00:13:34.110
+they can be if It is strict decimals in the same way. A 38 I think too It is.
+
+00:13:35.150 --> 00:13:39.533
+Date date format gives itself term term format RTF files then it creates
+
+00:13:39.533 --> 00:13:43.225
+actually a file a bit like when you save an image in idem,
+
+00:13:43.225 --> 00:13:47.839
+then you can save a small lopat RCF file. You also need to define it in the same way as
+
+00:13:47.839 --> 00:13:51.070
+the pictures where they are real, all that stuff.
+
+00:13:52.640 --> 00:13:55.184
+We won't work with that here. You can also make pictures,
+
+00:13:55.184 --> 00:13:57.561
+so you can also say I would like to offer you.
+
+00:13:57.561 --> 00:14:00.105
+I would like to have I want to create my item for today.
+
+00:14:00.105 --> 00:14:02.565
+There are 2 standard images, a front page and a back page.
+
+00:14:02.565 --> 00:14:05.360
+I would like 7 other pictures, so you can create 7 pictures.
+
+00:14:06.030 --> 00:14:09.533
+As flexible parents and so to say it should be an expression of that,
+
+00:14:09.533 --> 00:14:13.828
+this and that so you can create a lot of different types of fields in here,
+
+00:14:13.828 --> 00:14:15.749
+when you are missing a field in the standard.
+
+00:14:17.320 --> 00:14:20.148
+But, and maybe that's not quite it,
+
+00:14:20.148 --> 00:14:25.549
+but in this field fill who from let's say I have a a product where There is a
+
+00:14:25.549 --> 00:14:29.085
+front and a back, but I would really like a 2
+
+00:14:29.085 --> 00:14:31.399
+model photos or a model photo.
+
+00:14:32.390 --> 00:14:35.240
+Yes, that too as a, then you can create a reader image,
+
+00:14:35.240 --> 00:14:38.632
+then you can create an image here, then you link it together also in
+
+00:14:38.632 --> 00:14:41.335
+database-wise, so you have a connection between it
+
+00:14:41.335 --> 00:14:45.120
+you actually use it on different things you can use it for all sorts of things,
+
+00:14:45.120 --> 00:14:47.774
+so there so There are all these types of things you can do.
+
+00:14:47.774 --> 00:14:49.790
+And if I had a special date.
+
+00:14:52.200 --> 00:14:54.345
+Agreement expired or something on an item,
+
+00:14:54.345 --> 00:14:56.537
+a license or whatever the hell it might be,
+
+00:14:56.537 --> 00:14:59.894
+then you can interrupt such a field on your on your goods masts. And then say,
+
+00:14:59.894 --> 00:15:02.040
+I would like an expiration date on the license.
+
+00:15:02.710 --> 00:15:04.700
+Well, then we create a field called,
+
+00:15:04.700 --> 00:15:07.030
+and then we can fill it in on all our items afterwards.
+
+00:15:09.920 --> 00:15:12.860
+Yes, but that's how it is. It's very flexible,
+
+00:15:12.860 --> 00:15:17.356
+so in my case with Swedish standard, so I think all the best 1 1 1
+
+00:15:17.356 --> 00:15:19.720
+string and there was 30 long without decimals.
+
+00:15:21.280 --> 00:15:23.969
+Because it is still found on boys and so I called Danish Swedish standard
+
+00:15:23.969 --> 00:15:24.280
+example.
+
+00:15:26.780 --> 00:15:29.420
+Then I can choose afterwards that I want to validate it.
+
+00:15:32.110 --> 00:15:34.454
+Because if I don't say I chose this,
+
+00:15:34.454 --> 00:15:38.072
+then I can write anything in boy, and That's sometimes smart.
+
+00:15:38.072 --> 00:15:41.028
+It is very often the case. Is it smart not to just write
+
+00:15:41.028 --> 00:15:43.933
+anything, because then it's also working with the host
+
+00:15:43.933 --> 00:15:46.124
+with, so it would be nice to have one often
+
+00:15:46.124 --> 00:15:50.100
+list of things values than it can have. So in my case I choose that here.
+
+00:15:50.100 --> 00:15:54.177
+That's f 4 That's f 4 That's it That's the key we always use when we want
+
+00:15:54.177 --> 00:15:55.910
+Ask about Gyldendal. That's it, yes.
+
+00:15:56.920 --> 00:15:58.080
+Do you promise to put it there?
+
+00:15:59.070 --> 00:16:01.217
+You can say if you go down into your product group and
+
+00:16:01.217 --> 00:16:03.847
+press a fireall, then you will get to the general section,
+
+00:16:03.847 --> 00:16:06.476
+that tells you what types of values and It's the same
+
+00:16:06.476 --> 00:16:08.755
+logic here where you can create what values so you
+
+00:16:08.755 --> 00:16:11.122
+could actually have done it in many places in the system,
+
+00:16:11.122 --> 00:16:14.628
+even though it's not that you can do everything down this way pretty much there
+
+00:16:14.628 --> 00:16:18.310
+Is video something you can't help but do when you're doing all these things we can do now?
+
+00:16:19.880 --> 00:16:23.377
+So it's one or 2. That way it's relatively flexible so
+
+00:16:23.377 --> 00:16:25.400
+down here. If you now copy an item.
+
+00:16:26.510 --> 00:16:29.312
+Does this field need to have the value of this field?
+
+00:16:29.312 --> 00:16:33.440
+If I have now created a Swedish standard and it is called Swedish standard 2 when I
+
+00:16:33.440 --> 00:16:36.192
+If I copy it, what should be on the new path?
+
+00:16:36.192 --> 00:16:38.893
+have copied, should it say the same or nothing?
+
+00:16:38.893 --> 00:16:41.389
+Is that what you're deciding here or what?
+
+00:16:41.990 --> 00:16:45.605
+Well, if I say like that, then leave it alone and take the value with it.
+
+00:16:45.605 --> 00:16:48.390
+over. And if I do like that, it takes value with it.
+
+00:16:48.870 --> 00:16:51.673
+And it can be a little different depending on what it is,
+
+00:16:51.673 --> 00:16:54.100
+if it if It is completely product-specific and completely unique,
+
+00:16:54.100 --> 00:16:56.360
+So there's no reason to copy it.
+
+00:16:56.360 --> 00:16:59.666
+But if it's a slightly more common thing, where you say, well, this.
+
+00:16:59.666 --> 00:17:02.553
+It's yes now I say varebro, It's so stupid and it's found in
+
+00:17:02.553 --> 00:17:04.687
+already, but something that had a bit of the character of a
+
+00:17:04.687 --> 00:17:08.076
+category or whatever we could call it, then maybe it would be cool because then it would
+
+00:17:08.076 --> 00:17:11.550
+You often take a similar product and copy it, then you would like it to be the same.
+
+00:17:12.430 --> 00:17:14.705
+On many. You can easily have some items in
+
+00:17:14.705 --> 00:17:17.447
+textiles, I think you have maybe 20 flex fields
+
+00:17:17.447 --> 00:17:20.395
+on its product perception, so that there was much ascertained about them,
+
+00:17:20.395 --> 00:17:24.378
+so it suits them because there are some very special things about it there
+
+00:17:24.378 --> 00:17:28.568
+washing world there may be some fields that have integration with another system
+
+00:17:28.568 --> 00:17:31.879
+and make some fields that have special things about how
+
+00:17:31.879 --> 00:17:34.569
+the washing process should be and so on and so forth.
+
+00:17:34.569 --> 00:17:38.189
+So it is very flexible according to what you need as a customer.
+
+00:17:39.910 --> 00:17:42.192
+So now I've actually created a flex field here now.
+
+00:17:42.192 --> 00:17:45.369
+Now it's not the one we're going to end up with, but just for example sake.
+
+00:17:45.369 --> 00:17:47.070
+Now I can determine the valid values.
+
+00:17:49.430 --> 00:17:52.562
+So if the first valid value is SV zero one,
+
+00:17:52.562 --> 00:17:57.550
+then I could call it the Swedish STD. One and I can't spell I can say.
+
+00:17:59.480 --> 00:18:01.665
+Who was that? This way we also make the container.
+
+00:18:01.665 --> 00:18:04.120
+It actually does, and he does it, we'll do it again in a moment.
+
+00:18:05.830 --> 00:18:09.398
+But I got to thinking that this was maybe a little bit
+
+00:18:09.398 --> 00:18:12.587
+misunderstanding because then you feel a little in relation to
+
+00:18:12.587 --> 00:18:15.777
+arorepair this too. Well now I haven't been very
+
+00:18:15.777 --> 00:18:19.940
+consistent with how I named it, but if we just ignore that,
+
+00:18:19.940 --> 00:18:24.157
+so I have now created a flexfield called Swedish standard with 2 possible
+
+00:18:24.157 --> 00:18:24.589
+values.
+
+00:18:25.350 --> 00:18:28.338
+Very often I have chosen when doing this.
+
+00:18:28.338 --> 00:18:31.912
+Now I could have 100 items in advance. If I have it,
+
+00:18:31.912 --> 00:18:35.896
+then they all have it. The value has not been decided.
+
+00:18:35.896 --> 00:18:39.529
+on them and so We don't have, so there's nothing in them.
+
+00:18:39.529 --> 00:18:41.990
+So often I will create an empty value as well.
+
+00:18:43.860 --> 00:18:46.229
+Because if you go into one of the 100 items,
+
+00:18:46.229 --> 00:18:48.546
+then it will say It is an invalid value,
+
+00:18:48.546 --> 00:18:52.706
+if you don't press it where it happens, supposedly something like this,
+
+00:18:52.706 --> 00:18:56.919
+then it will require you to get one of these answers and it also depends a bit on what
+
+00:18:56.919 --> 00:19:01.079
+Is this what I'm making a flex field for? This is something I always have to decide.
+
+00:19:01.079 --> 00:19:03.660
+to or is it OK to leave it blank?
+
+00:19:04.350 --> 00:19:07.697
+Now I left it blank, so you do it OK then the way you do it
+
+00:19:07.697 --> 00:19:11.267
+I do that line by line and then I don't actually write anything in it.
+
+00:19:11.267 --> 00:19:14.570
+We're going off on a tangent here, but I think it's healthy enough for us,
+
+00:19:14.570 --> 00:19:17.917
+because now I want to show you how we use this because it
+
+00:19:17.917 --> 00:19:21.309
+Here is this field I have now created, I would like to use it.
+
+00:19:26.220 --> 00:19:31.574
+I don't know if it's SBS until tomorrow, I think. I would actually like to have that.
+
+00:19:31.574 --> 00:19:36.260
+use over in mine we think 51 views early, so now we call it 9 9 and.
+
+00:19:37.310 --> 00:19:39.230
+9 1 question even over there.
+
+00:19:40.350 --> 00:19:40.630
+Open.
+
+00:19:41.790 --> 00:19:45.307
+Why is it that some of those you qualify can't do it?
+
+00:19:45.307 --> 00:19:49.455
+That's because we can try that, but the blue ones and then sprinkles It's a nice
+
+00:19:49.455 --> 00:19:52.027
+question. That's because this one thing we can do now
+
+00:19:52.027 --> 00:19:54.862
+say one thing. That's where I enter the value and
+
+00:19:54.862 --> 00:19:59.115
+the other place That's where the translator is. What is this value if we just go
+
+00:19:59.115 --> 00:20:01.635
+back when we created Our Swedish Standard
+
+00:20:01.635 --> 00:20:02.790
+Here, just try doing it.
+
+00:20:03.870 --> 00:20:07.683
+If I can figure out when it does this bum Like this in here.
+
+00:20:07.683 --> 00:20:11.552
+There I have created a value called SV zero one. That's it,
+
+00:20:11.552 --> 00:20:14.536
+That's the value. That's what the code value gets,
+
+00:20:14.536 --> 00:20:18.294
+but the text becomes standard Swedish so the value I enter,
+
+00:20:18.294 --> 00:20:21.223
+That's the one that when I've entered that value,
+
+00:20:21.223 --> 00:20:24.871
+then it has it, then it's Swedish standard one and when we go over here,
+
+00:20:24.871 --> 00:20:28.353
+then the one looks at it I can edit, It's SV zero one,
+
+00:20:28.353 --> 00:20:29.789
+then it shows me afterwards.
+
+00:20:30.560 --> 00:20:31.120
+That it means.
+
+00:20:31.590 --> 00:20:34.020
+That It's this one, and now I've put it on the wrong one
+
+00:20:34.020 --> 00:20:36.322
+order, so you typically want to type something first and
+
+00:20:36.322 --> 00:20:38.412
+afterwards and see the value. We'll see that in a moment,
+
+00:20:38.412 --> 00:20:39.990
+for now we go in and see Our goods.
+
+00:20:40.990 --> 00:20:43.373
+I don't know now. I guess I didn't get approved,
+
+00:20:43.373 --> 00:20:47.297
+so I should have done that first. So now I've redesigned my table design.
+
+00:20:47.297 --> 00:20:51.071
+Now we see it right 82 51 finished product screed how it looks in here,
+
+00:20:51.071 --> 00:20:54.845
+because now you can see now I can f 4 on this one and then I can choose one of my
+
+00:20:54.845 --> 00:20:58.669
+values and then I have chosen SV zero one and it shows me what it means.
+
+00:21:00.680 --> 00:21:02.898
+It's now SV zero one. It could have been.
+
+00:21:02.898 --> 00:21:05.596
+That might have been enough to know what it was,
+
+00:21:05.596 --> 00:21:08.902
+but in other cases it may be some slightly more code-like values.
+
+00:21:08.902 --> 00:21:11.600
+You can see all our product groups, they are not called 2 3 94 7.
+
+00:21:12.070 --> 00:21:15.502
+And what is a so? Yes, it's pants. So if I wrote one there, it should
+
+00:21:15.502 --> 00:21:17.910
+there so so pants Such a translation you could say.
+
+00:21:19.190 --> 00:21:23.908
+On this product it looked like this. That's How It Is This is the flexfield concept
+
+00:21:23.908 --> 00:21:25.350
+Basically yes.
+
+00:21:27.080 --> 00:21:27.160
+Well.
+
+00:21:28.150 --> 00:21:30.802
+And this. Now we looked at flexfields in relation
+
+00:21:30.802 --> 00:21:34.963
+to a finished product. After all, they are the most. What should we say in goose eyes ordinary?
+
+00:21:34.963 --> 00:21:38.708
+We're in a slightly more advanced world here with shipping,
+
+00:21:38.708 --> 00:21:42.348
+but you actually use exactly the same concept for this.
+
+00:21:42.348 --> 00:21:45.573
+That's just different. Now we've entered the flex field.
+
+00:21:45.573 --> 00:21:48.589
+the application, we try that and back out right away and start.
+
+00:21:50.200 --> 00:21:51.960
+The most field application is 61. 41.
+
+00:21:53.790 --> 00:21:56.032
+And my example here with the Swedish standard.
+
+00:21:56.032 --> 00:21:58.665
+I made it as we talked about in sales production.
+
+00:21:58.665 --> 00:22:00.810
+We are actually down to inbound logistics,
+
+00:22:00.810 --> 00:22:03.783
+where we would like to make an example. What does the one down there choose?
+
+00:22:03.783 --> 00:22:07.537
+Now we are in that context, and those fields are displayed in that context.
+
+00:22:07.537 --> 00:22:09.682
+for the field I made up in finished goods.
+
+00:22:09.682 --> 00:22:13.095
+I see it in my collection overview, but I don't see it.
+
+00:22:13.095 --> 00:22:15.630
+I don't see that field in inbound logistics.
+
+00:22:16.990 --> 00:22:19.666
+And in that back that you would like to do in and in the snotty
+
+00:22:19.666 --> 00:22:22.470
+The group does not create coherence and in this case logic.
+
+00:22:23.070 --> 00:22:25.542
+The standard fields. Those are the ones we use. That's it.
+
+00:22:25.542 --> 00:22:28.236
+It's actually also flexible fields, but it's a tax center,
+
+00:22:28.236 --> 00:22:31.548
+Middelfart and all the other things. That's how some standards are.
+
+00:22:31.548 --> 00:22:35.036
+are included. They are still flex fields, so they work in exactly the same way.
+
+00:22:35.036 --> 00:22:37.553
+We've just defined them as not and are sending them out.
+
+00:22:37.553 --> 00:22:38.790
+You can make your own too.
+
+00:22:40.360 --> 00:22:44.028
+And we're going to try to do that, and I actually have, like the TV chef I am,
+
+00:22:44.028 --> 00:22:46.870
+been going on. I've made one here because It's one there
+
+00:22:46.870 --> 00:22:47.800
+is called sent OK?
+
+00:22:49.230 --> 00:22:53.289
+The idea with it. It's that we want to eventually use this
+
+00:22:53.289 --> 00:22:57.095
+like a like a flex field, like if we put a check mark in it,
+
+00:22:57.095 --> 00:23:01.662
+then it completes that point and raises it to the shipping status quo,
+
+00:23:01.662 --> 00:23:06.736
+so we can complete a workflow point over from Our purchasing points by
+
+00:23:06.736 --> 00:23:08.830
+create a flexfield that can do that.
+
+00:23:10.760 --> 00:23:12.975
+So we can separate it with techno through cannon content,
+
+00:23:12.975 --> 00:23:15.030
+But what you can see and what we can do here, we can.
+
+00:23:15.030 --> 00:23:16.320
+We can do the other thing too.
+
+00:23:16.630 --> 00:23:20.763
+Because in the past we tried to make what was called a container size and that
+
+00:23:20.763 --> 00:23:25.003
+Could we try to do it again, because a container size is like this
+
+00:23:25.003 --> 00:23:28.395
+great to have with me. I think we called it a 0 9 a is
+
+00:23:28.395 --> 00:23:32.317
+because it is an alf-hanomeric type. You can see the type over in this column.
+
+00:23:32.317 --> 00:23:36.716
+It's an a'er when we have an ager so the next thing we define is how far to
+
+00:23:36.716 --> 00:23:39.419
+It could be? You see, we have something called zero one.
+
+00:23:39.419 --> 00:23:41.910
+Such a long one so it's called JRN yes no typically.
+
+00:23:42.750 --> 00:23:45.985
+It can be 9 long, so you have room for 9 characters.
+
+00:23:45.985 --> 00:23:49.683
+It could be 30 long. I actually think it is that and 70 long so
+
+00:23:49.683 --> 00:23:53.150
+you have like because you end up in some special files.
+
+00:23:54.720 --> 00:23:58.342
+When it can be 70 long, it can also easily be 50 long, so you can
+
+00:23:58.342 --> 00:24:02.351
+just defines it just can't be 71. That's why you choose the right type
+
+00:24:02.351 --> 00:24:06.215
+about That is if you want a field that should be 25 times then you choose 30 and 30
+
+00:24:06.215 --> 00:24:09.838
+and then you choose afterwards that it is specifically a 9 or the nine that would be
+
+00:24:09.838 --> 00:24:10.079
+nice.
+
+00:24:10.830 --> 00:24:13.138
+So the nine is fine for our container size,
+
+00:24:13.138 --> 00:24:16.840
+and it is typically the longest. It is 40 HCI my x Like I
+
+00:24:16.840 --> 00:24:19.197
+anyway, I thought, so I'll make an a zero nine,
+
+00:24:19.197 --> 00:24:21.553
+and then I must have found an available serial number.
+
+00:24:21.553 --> 00:24:25.544
+It will be 0 0 2 because I can see I have made zero zero no try just wait down in
+
+00:24:25.544 --> 00:24:28.430
+The nine there was called, we can start at 0 0 1 in principle.
+
+00:24:29.200 --> 00:24:33.585
+Because the first one down in the nine is called 801, so it looks like I can get it.
+
+00:24:33.585 --> 00:24:35.938
+create it there and now we'll just make one here.
+
+00:24:35.938 --> 00:24:39.040
+This one only needs to be 4 and we call it a container.
+
+00:24:42.460 --> 00:24:46.048
+I don't know why We have 2 because the description could explain something more,
+
+00:24:46.048 --> 00:24:48.410
+but I'm just writing together where it's maintained.
+
+00:24:48.410 --> 00:24:50.500
+If it's going to be validated, I'll have to be all jazz.
+
+00:24:52.270 --> 00:24:54.550
+They get a value, well it's blank, they don't know.
+
+00:24:56.350 --> 00:24:59.830
+And we say, where does STR cont as an ally?
+
+00:25:02.830 --> 00:25:04.270
+So now we have to go down and find it down here.
+
+00:25:06.030 --> 00:25:09.750
+It came there. Now we would like to define what is legal.
+
+00:25:10.620 --> 00:25:13.730
+We do this by going into valid values. We create a valid values.
+
+00:25:13.730 --> 00:25:16.415
+We haven't decided on the first one. That's OK too,
+
+00:25:16.415 --> 00:25:19.184
+we don't take a position. Maybe then let's go not write a text.
+
+00:25:19.184 --> 00:25:22.210
+I chose not to, I chose to create one that was blank,
+
+00:25:22.210 --> 00:25:24.979
+Because it's OK to have a blank if you don't know.
+
+00:25:25.820 --> 00:25:28.275
+Well, if you don't know yet, I would like to...
+
+00:25:28.275 --> 00:25:30.731
+that it is not an invalid value and not a guaranteed position.
+
+00:25:30.731 --> 00:25:31.980
+That's why you can press.
+
+00:25:32.700 --> 00:25:35.500
+And then I want a twenty-footer. I'll just call it 20.
+
+00:25:36.500 --> 00:25:41.585
+So I can call that type of foot Like that, and then I would like to have a question 40
+
+00:25:41.585 --> 00:25:44.500
+head and then I would like a 40 highfive.
+
+00:00:00.000 --> 00:00:00.000
+00:25:50.870 --> 00:25:53.537 And then it could be I want someone called LCL.
+
+00:25:53.537 --> 00:25:57.670
+It is because there is a container load, so if it is a piece of cargo.
+
+00:26:01.520 --> 00:26:05.200
+Then I have some valid values. It has to take this one.
+
+00:26:06.500 --> 00:26:09.980
+But now we have defined another flex field that we can actually use.
+
+00:26:12.270 --> 00:26:16.811
+In Our Inbound Logistics, just like I defined my Swedish before
+
+00:26:16.811 --> 00:26:19.925
+standard in 81. 51 to be able to see it in 82. 52,
+
+00:26:19.925 --> 00:26:25.115
+then we actually have the same logic in the same way, which is found in inbound logistics,
+
+00:26:25.115 --> 00:26:28.164
+and we can just go down here and take a look at it,
+
+00:26:28.164 --> 00:26:32.056
+because now you can remember 81 71 82 51 here together in collections.
+
+00:26:32.056 --> 00:26:35.430
+The one down here is there too. There are actually more too.
+
+00:26:36.100 --> 00:26:39.464
+But down here, there are a number of replications.
+
+00:26:39.464 --> 00:26:45.461
+8146 81 47 48 49 together they form a concept around inbound logistics and the
+
+00:26:45.461 --> 00:26:49.557
+you can see man. You can actually start down here in 49 at
+
+00:26:49.557 --> 00:26:54.092
+to make a table design. It corresponds to 81 51 in finished product
+
+00:26:54.092 --> 00:26:56.140
+world. Why isn't it?
+
+00:26:58.060 --> 00:27:01.335
+Why isn't it in? I just choose the logical way
+
+00:27:01.335 --> 00:27:04.351
+So is it 81 46 first and then sexual afterwards? Yes,
+
+00:27:04.351 --> 00:27:08.354
+I couldn't just create a flex field, the flex field is
+
+00:27:08.354 --> 00:27:11.941
+low outside of that you can say, and That's why I can't, so no,
+
+00:27:11.941 --> 00:27:14.281
+according to her, maybe not the most logical,
+
+00:27:14.281 --> 00:27:17.037
+so that that that I don't think We should really think,
+
+00:27:17.037 --> 00:27:19.896
+So I probably should have put it there in reality,
+
+00:27:19.896 --> 00:27:22.808
+so you could say you could start with this one,
+
+00:27:22.808 --> 00:27:24.940
+Then you could make a flagpole afterwards.
+
+00:27:26.260 --> 00:27:29.315
+Because what's really happening here is that racists are now doing it.
+
+00:27:29.315 --> 00:27:33.257
+Now we started doing some flex because I thought it was a smart thing to do.
+
+00:27:33.257 --> 00:27:35.868
+start with, but in reality you do it first
+
+00:27:35.868 --> 00:27:39.613
+that you decide to design, then you find out that you were missing a
+
+00:27:39.613 --> 00:27:39.860
+felt.
+
+00:27:41.430 --> 00:27:45.185
+And then, once you've set up, you find out who can see what.
+
+00:27:45.185 --> 00:27:46.190
+last one can say.
+
+00:27:47.990 --> 00:27:51.667
+There was just enough time to do it, so I moved my foot around a bit and then I sat down and
+
+00:27:51.667 --> 00:27:55.070
+I thought we could move it out a bit. We could just move it around a bit.
+
+00:27:55.540 --> 00:28:00.203
+It might be It's more logical that we say the one that goes up at the beginning place
+
+00:28:00.203 --> 00:28:03.578
+Like that and then when we've done it we can see it.
+
+00:28:03.578 --> 00:28:07.260
+We can go there a little later. Boom boom, that's what we say here.
+
+00:28:09.340 --> 00:28:09.780
+And.
+
+00:28:14.320 --> 00:28:15.240
+Delete that one.
+
+00:28:16.790 --> 00:28:17.950
+Just smoke. Like that.
+
+00:28:19.780 --> 00:28:22.045
+And I just went overboard. Now I didn't.
+
+00:28:22.045 --> 00:28:24.500
+If you had blocked it, you would have removed it. That wasn't entirely my point.
+
+00:28:26.070 --> 00:28:26.590
+Was was back.
+
+00:28:27.140 --> 00:28:32.436
+You can just go to the world, let's go taste it. Now I just got to go forward again. Like this
+
+00:28:32.436 --> 00:28:35.472
+there. Copy and many stack 49 super lack strong
+
+00:28:35.472 --> 00:28:35.860
+some.
+
+00:28:37.420 --> 00:28:40.300
+Well, well, it's at the top now that it's locked.
+
+00:28:42.460 --> 00:28:44.020
+Insert rows above.
+
+00:28:45.240 --> 00:28:49.646
+We do that there, then we say horse for it because then
+
+00:28:49.646 --> 00:28:52.640
+We say we'll delete that one.
+
+00:28:54.790 --> 00:28:58.928
+Oh no, I'm not very good at hitting these muscles, necks, bum.
+
+00:28:58.928 --> 00:29:03.231
+sletrekker That's it, so now we're playing. Now we've got a good start minus 41,
+
+00:29:03.231 --> 00:29:07.700
+but in reality you could, you would probably often start with 81 so you could spell
+
+00:29:07.700 --> 00:29:10.680
+to it 81 49. We would like to define a table design,
+
+00:29:10.680 --> 00:29:13.439
+Then we'll go here. I've been a bit busy again.
+
+00:29:13.439 --> 00:29:17.798
+I have decided to do something related to the East when
+
+00:29:17.798 --> 00:29:21.991
+things come home from the east in here like 81 51 there I see all those fields
+
+00:29:21.991 --> 00:29:23.150
+I have it available.
+
+00:29:23.860 --> 00:29:26.872
+And that's it. We've done quite a lot so far it's relatively
+
+00:29:26.872 --> 00:29:28.340
+standard fields that we are dealing with.
+
+00:29:29.910 --> 00:29:32.750
+So here I have selected some things that are standard.
+
+00:29:35.150 --> 00:29:35.390
+Yes.
+
+00:29:37.180 --> 00:29:40.731
+I actually don't have the opportunity to choose my new field yet.
+
+00:29:40.731 --> 00:29:45.240
+It was called container size, by the way. We can try it and see if it works.
+
+00:29:45.240 --> 00:29:48.397
+It doesn't, I think already now I can reveal,
+
+00:29:48.397 --> 00:29:52.173
+so we'll come back to that, but it's healthy enough,
+
+00:29:52.173 --> 00:29:56.401
+but I have chosen some things that I can do in the same way as one of 80 51
+
+00:29:56.401 --> 00:30:00.741
+and the things I have now selected here. I can then see them in that view here I can
+
+00:30:00.741 --> 00:30:02.939
+make many views, I have only made one.
+
+00:30:03.750 --> 00:30:06.550
+Now we look at my view with the east, and we see the fields I have now selected.
+
+00:30:06.820 --> 00:30:12.253
+Yes and I can see I have a purchase order here where there are 2 different splits on it
+
+00:30:12.253 --> 00:30:15.785
+This is what will be the most special thing today.
+
+00:30:15.785 --> 00:30:19.860
+It is split how to share on the same order line.
+
+00:30:21.590 --> 00:30:23.110
+Yes, which plays fine but 2 splits.
+
+00:30:24.790 --> 00:30:26.664
+And actually, it's a bit strange.
+
+00:30:26.664 --> 00:30:29.150
+Because how about an order? We started looking at it?
+
+00:30:30.750 --> 00:30:31.879
+Well, there are actually a lot of lines on it.
+
+00:30:31.879 --> 00:30:32.030
+order.
+
+00:30:34.060 --> 00:30:36.280
+So this is it. This is the level you need to be at.
+
+00:30:36.280 --> 00:30:37.620
+Get used to the fact that there is a difference.
+
+00:30:39.190 --> 00:30:42.498
+The purchase order number and shipping number, because the next purchase order could
+
+00:30:42.498 --> 00:30:45.762
+risk having as many, but because of the split you don't get
+
+00:30:45.762 --> 00:30:48.042
+the same. So it's a bit partial or yes
+
+00:30:48.042 --> 00:30:50.054
+That's what we've divided over,
+
+00:30:50.054 --> 00:30:52.200
+if we have just played on the term itself,
+
+00:30:52.200 --> 00:30:54.883
+so it may be that they have different delivery times,
+
+00:30:54.883 --> 00:30:58.504
+then that's what does then that's what fluctuates so if There are 2 lines to
+
+00:30:58.504 --> 00:31:01.187
+delivered at the same time, then it is a line in stem shipping and then
+
+00:31:01.187 --> 00:31:02.350
+There will be 3 other lines.
+
+00:31:02.820 --> 00:31:06.226
+A 2 and then it's a 2 line where the next order it could risk having
+
+00:31:06.226 --> 00:31:08.861
+even more lines that all have to be delivered simultaneously.
+
+00:31:08.861 --> 00:31:12.176
+And then they come on the same link, so it depends on what things we have
+
+00:31:12.176 --> 00:31:14.992
+chosen to split up. Now we chose to split up into quite a few
+
+00:31:14.992 --> 00:31:15.219
+thing.
+
+00:31:16.870 --> 00:31:20.794
+And we probably also changed it from how I designed it,
+
+00:31:20.794 --> 00:31:23.643
+So we'll see. But that's what's important.
+
+00:31:23.643 --> 00:31:26.820
+It's that you recognize that logic in that we have a table structure,
+
+00:31:26.820 --> 00:31:29.669
+which we first decide on. And then we have a view.
+
+00:31:30.300 --> 00:31:34.232
+As we choose, and then we can see all the information when
+
+00:31:34.232 --> 00:31:39.500
+It's Turfis 51, so that's all we see in here. That's what we see, including.
+
+00:31:41.070 --> 00:31:41.310
+Yes.
+
+00:31:42.740 --> 00:31:46.296
+You could have chosen some things out here. Now I just chose from the order number it
+
+00:31:46.296 --> 00:31:48.726
+one and the other. I could actually come now too
+
+00:31:48.726 --> 00:31:52.327
+status Kurds Johan, This is where they can also make sense and then say well,
+
+00:31:52.327 --> 00:31:55.478
+What is the status quo if I want to see the statuses there?
+
+00:31:55.478 --> 00:31:57.909
+is under 80, because I don't want to look at all of them.
+
+00:31:57.909 --> 00:31:59.620
+is closed. Well then I can choose it.
+
+00:32:01.460 --> 00:32:05.587
+Then I can choose to only see all the open ones, because there is no reason for that.
+
+00:32:05.587 --> 00:32:08.941
+Everyone can say that, but there's no reason to,
+
+00:32:08.941 --> 00:32:12.501
+When my company has been running for 5 years, there are 3000 closed years.
+
+00:32:12.501 --> 00:32:14.772
+I'm not interested in looking at them,
+
+00:32:14.772 --> 00:32:18.900
+so I sort them out either here or there are 2 ways you can do it.
+
+00:32:20.470 --> 00:32:23.735
+So you don't see the closing ones sometimes you want to see the closed ones because the There
+
+00:32:23.735 --> 00:32:25.790
+has been closed since last week. How was that?
+
+00:32:25.790 --> 00:32:28.532
+Or if I want to see how many containers I brought home last year?
+
+00:32:28.532 --> 00:32:30.870
+So, as some in some contexts, you would like to see them.
+
+00:32:31.340 --> 00:32:33.837
+But here you have the handle to choose it.
+
+00:32:33.837 --> 00:32:36.633
+Similarly, you could also have the handle say,
+
+00:32:36.633 --> 00:32:39.980
+How many are your status codes? Was I missing this one exactly?
+
+00:32:41.670 --> 00:32:45.625
+Yes, now depending on what we have defined as codes, it could be a sound,
+
+00:32:45.625 --> 00:32:49.632
+a production sample or something else so you can tell how many I have
+
+00:32:49.632 --> 00:32:52.150
+the one where I can choose? I choose supplier a.
+
+00:32:53.300 --> 00:32:57.801
+This guy, how many do I have that have status 40 so now I don't have any finished right?
+
+00:32:57.801 --> 00:33:00.524
+many, but then you can choose specifically what
+
+00:33:00.524 --> 00:33:01.580
+you will follow up on.
+
+00:33:02.180 --> 00:33:04.699
+But can't you just do a curling on that too, right?
+
+00:33:04.699 --> 00:33:08.088
+But there's no reason to bother. Can't you update the data?
+
+00:33:08.088 --> 00:33:11.130
+You can have that, no, you can have that, so there's a big difference.
+
+00:33:11.130 --> 00:33:13.606
+Well, it makes a difference, because we can go in here.
+
+00:33:13.606 --> 00:33:16.952
+Now of course I have changed yours right now and thought we don't have that many
+
+00:33:16.952 --> 00:33:19.167
+things selected out, but right now you can choose your some
+
+00:33:19.167 --> 00:33:21.514
+creation of. It is not a meaningful thing to
+
+00:33:21.514 --> 00:33:23.556
+change, but your ECD if you are told by your
+
+00:33:23.556 --> 00:33:27.075
+supplier this ECD it changes, then you can correct protection or change it
+
+00:33:27.075 --> 00:33:29.986
+and there are many There are several other things you would be able to change as well.
+
+00:33:29.986 --> 00:33:31.420
+Now I have selected a lot of fields.
+
+00:33:31.740 --> 00:33:35.157
+Which doesn't make sense to change, which is more informational,
+
+00:33:35.157 --> 00:33:37.761
+but if we were talking about the container size,
+
+00:33:37.761 --> 00:33:42.372
+We'll bring it in here in a moment. It would also be a person walking in here.
+
+00:33:42.372 --> 00:33:43.619
+And yes, you can't.
+
+00:33:45.190 --> 00:33:48.498
+Set up so that it can, that's a bit of a double standard.
+
+00:33:48.498 --> 00:33:52.341
+It is It can both function as a heifer. I like a good overview,
+
+00:33:52.341 --> 00:33:55.989
+but it can actually also function as turof 51 and update one of your things.
+
+00:33:57.820 --> 00:33:59.940
+So I. I think of it a lot as being
+
+00:33:59.940 --> 00:34:03.567
+comparability metric to 51 this one not too but but on something completely different
+
+00:34:03.567 --> 00:34:04.180
+of course.
+
+00:34:04.740 --> 00:34:06.980
+Makes more sense now that way, I think.
+
+00:34:07.700 --> 00:34:12.010
+And then those fields or the flex fields, several of them, so low, and sat and
+
+00:34:12.010 --> 00:34:16.656
+I thought, what is this? Is it real? But now that you mention it, when we just
+
+00:34:16.656 --> 00:34:19.344
+has made the priority and the container can remember,
+
+00:34:19.344 --> 00:34:23.878
+But when you say it this way, it makes a lot of sense to me.
+
+00:34:23.878 --> 00:34:26.621
+these flex fields and what flex fields can do now.
+
+00:34:26.621 --> 00:34:31.044
+Now we have made some flex fields and you could see the new flex fields we had.
+
+00:34:31.044 --> 00:34:31.380
+made.
+
+00:34:32.710 --> 00:34:34.870
+We actually didn't have that in mind. We couldn't say no to that.
+
+00:34:36.500 --> 00:34:39.837
+And is it green, yes, this container size that we have
+
+00:34:39.837 --> 00:34:44.307
+we made it we didn't get it and it's the same with that what we
+
+00:34:44.307 --> 00:34:47.763
+actually see when we look at this. It's like this,
+
+00:34:47.763 --> 00:34:51.041
+There is a file that is being created down behind,
+
+00:34:51.041 --> 00:34:54.557
+and it doesn't take all the fields with it, it takes those fields with it,
+
+00:34:54.557 --> 00:34:58.491
+which we choose to create, and then we should have what is
+
+00:34:58.491 --> 00:35:01.352
+smart here. It's that we can add some some
+
+00:35:01.352 --> 00:35:03.140
+extra columns in this file.
+
+00:35:03.380 --> 00:35:06.707
+You can't normally do that. If you look at the finished master,
+
+00:35:06.707 --> 00:35:10.540
+then there are those columns in the finished master that There is and and then it is ****.
+
+00:35:12.110 --> 00:35:16.218
+But this file there you can change it. There are some programs made so you can
+
+00:35:16.218 --> 00:35:18.194
+expand, so if you need to see
+
+00:35:18.194 --> 00:35:22.146
+container size down in this file, then you can add container size,
+
+00:35:22.146 --> 00:35:26.046
+but we haven't done that yet. We've only created, now we'd like to no,
+
+00:35:26.046 --> 00:35:28.750
+So we haven't. We haven't seen the effect of it.
+
+00:35:29.660 --> 00:35:32.639
+But we also added the field in the shipping world,
+
+00:35:32.639 --> 00:35:35.740
+Then we need to go into this inbound logistics field.
+
+00:35:37.700 --> 00:35:38.940
+81, 47.
+
+00:35:40.430 --> 00:35:47.303
+Look, it's a bit related to the other 81. 47 and now, oh, I just forgot, you see.
+
+00:35:47.303 --> 00:35:47.950
+up here.
+
+00:35:48.860 --> 00:35:52.602
+Recognizable to 61. 41 that This is the filename we are working on
+
+00:35:52.602 --> 00:35:55.115
+in, which is a specialty shipping company with special
+
+00:35:55.115 --> 00:35:57.852
+Yes, Phillip's name. It doesn't have to be typed in.
+
+00:35:57.852 --> 00:36:01.817
+You don't need to It's on. It's a location here it That's where
+
+00:36:01.817 --> 00:36:04.386
+If you know what it's called, do it.
+
+00:36:04.386 --> 00:36:06.900
+So they're called something like that, a little funny things.
+
+00:36:10.230 --> 00:36:12.350
+So, in principle, you don't really know that yet.
+
+00:36:13.540 --> 00:36:15.992
+When are you feeling down, we'll see if we can't find you.
+
+00:36:15.992 --> 00:36:16.460
+the one down there.
+
+00:00:00.000 --> 00:00:00.000
+00:36:22.010 --> 00:36:26.044 I should have done that. No, I'm actually going to create this one. Well,
+
+00:36:26.044 --> 00:36:30.130
+I had forgotten what I was supposed to do, but we'll do it. It's OK, so to speak.
+
+00:36:31.670 --> 00:36:31.830
+Bum.
+
+00:36:35.140 --> 00:36:37.940
+It was called, a 0 9 0 0 1.
+
+00:36:39.490 --> 00:36:42.078
+That's actually what I could have just created
+
+00:36:42.078 --> 00:36:45.121
+this one. We'll see. We'd like this one to be
+
+00:36:45.121 --> 00:36:47.210
+4 The heading should be content size.
+
+00:36:50.370 --> 00:36:50.970
+Neat here.
+
+00:36:51.940 --> 00:36:56.215
+At coffee growth. We would like to validate the default value
+
+00:36:56.215 --> 00:36:56.940
+is blank.
+
+00:36:57.980 --> 00:37:01.420
+Cold STR Like that.
+
+00:37:02.300 --> 00:37:05.128
+Yes, I just think so. I actually think it was unnecessary and
+
+00:37:05.128 --> 00:37:08.091
+that I created some, but I really just think I could have
+
+00:37:08.091 --> 00:37:11.100
+done this place, so now we have. Now we have this set up.
+
+00:37:12.740 --> 00:37:17.929
+And the file we're talking about now, where we can actually see the incoming
+
+00:37:17.929 --> 00:37:22.366
+Logistics is based on it. It is also in the documents.
+
+00:37:22.366 --> 00:37:26.577
+Here the ship is called DTAP, and we can actually influence it.
+
+00:37:26.577 --> 00:37:31.315
+And when you have to influence it, you do it inside this one. 4.
+
+00:37:31.315 --> 00:37:36.580
+47 because now we have created this field, and we would like to include that.
+
+00:37:37.390 --> 00:37:41.574
+So you can see up here at the top, you can restore the definition of the file.
+
+00:37:41.574 --> 00:37:42.310
+That is to say.
+
+00:37:42.620 --> 00:37:46.839
+You can add extra columns and now I've added this one,
+
+00:37:46.839 --> 00:37:51.180
+so now I can add extra columns the next one. It can restore data.
+
+00:37:52.500 --> 00:37:55.089
+The definition is, in a way, just a series of,
+
+00:37:55.089 --> 00:37:58.948
+that there is a container size. There is an order now and all these
+
+00:37:58.948 --> 00:38:01.741
+things, but there is no data yet, so the data.
+
+00:38:01.741 --> 00:38:05.651
+It's based on all the purchasing requirements and what item numbers are on them and
+
+00:38:05.651 --> 00:38:09.256
+what tons of explosive shells then Those are 2 different things. It is important,
+
+00:38:09.256 --> 00:38:11.948
+that when today, if we looked at that file,
+
+00:38:11.948 --> 00:38:14.385
+then the container size is not listed in that file.
+
+00:38:14.385 --> 00:38:17.940
+That's also why we couldn't select it inside our table design.
+
+00:38:18.500 --> 00:38:22.994
+Because we have to do that here and now, but do we actually have to have it?
+
+00:38:22.994 --> 00:38:27.231
+We need to change the definition of the file for the conflict with? Yes,
+
+00:38:27.231 --> 00:38:31.020
+I actually can't do that while I'm inside this view.
+
+00:38:32.180 --> 00:38:36.157
+Because then I block it because now I'm using it, so I can't overwrite it,
+
+00:38:36.157 --> 00:38:38.389
+So I'm going to go out. It's going to box now.
+
+00:38:38.389 --> 00:38:41.397
+Now I know what grows, so there's no reason for me to
+
+00:38:41.397 --> 00:38:44.501
+waiting for it to grow so now we go straight and everything here,
+
+00:38:44.501 --> 00:38:45.860
+so I don't stand there blocking.
+
+00:38:47.820 --> 00:38:51.060
+And then I actually go up here, and then I just restore the definition with
+
+00:38:51.060 --> 00:38:53.159
+file. Now we are in Such a nice little environment,
+
+00:38:53.159 --> 00:38:54.620
+so it went pretty quickly.
+
+00:38:56.190 --> 00:38:59.163
+Yes, it's already formed, but it didn't need that much.
+
+00:38:59.163 --> 00:39:02.311
+It just needed to add an extra column. Now I want to restore the data.
+
+00:39:02.311 --> 00:39:05.590
+You should think about that. There aren't many shopping areas either,
+
+00:39:05.590 --> 00:39:08.082
+so It's also fast, so now we've actually done it,
+
+00:39:08.082 --> 00:39:10.968
+So now we would like to see if we haven't got ours.
+
+00:39:10.968 --> 00:39:12.630
+What is our extra field called?
+
+00:39:13.460 --> 00:39:14.420
+In Our table design.
+
+00:39:15.820 --> 00:39:19.180
+Did it work out, for example? I really hope so. We have.
+
+00:39:20.910 --> 00:39:22.030
+Otherwise, it's a bad course.
+
+00:39:22.860 --> 00:39:29.060
+So now we see this pretty one lying down there on it now, so this one right here.
+
+00:39:31.310 --> 00:39:33.993
+And now we got it, and now it's active on or something else.
+
+00:39:33.993 --> 00:39:36.176
+So now I have added it to our table design.
+
+00:39:36.176 --> 00:39:39.815
+Bum you can always add something there or let's say It's a drive or a
+
+00:39:39.815 --> 00:39:42.316
+or something else, and you would like something more to it.
+
+00:39:42.316 --> 00:39:46.000
+Then you can just go in and create a completely new column field. It's a,
+
+00:39:46.000 --> 00:39:49.230
+It's a. It's a rare, It's a rare thing to do.
+
+00:39:50.860 --> 00:39:53.500
+When a need arises and you find out.
+
+00:39:56.500 --> 00:40:00.530
+It would actually be great if I could just get the DSVS shipping numbers in here,
+
+00:40:00.530 --> 00:40:02.877
+so because That's what they write about all the time.
+
+00:40:02.877 --> 00:40:06.908
+Then you just create a field called freight bag number, boom, get it and you have
+
+00:40:06.908 --> 00:40:09.663
+You can do that and in principle you will always be able to do that.
+
+00:40:09.663 --> 00:40:13.795
+You just have to be aware if there is someone sitting and working on it.
+
+00:40:13.795 --> 00:40:17.418
+this file, it's closed. So if you now have 17 users sitting
+
+00:40:17.418 --> 00:40:20.836
+inside the shipping client, then you have to wait for them to be gone.
+
+00:40:20.836 --> 00:40:23.489
+Make sure there is no one blocking it,
+
+00:40:23.489 --> 00:40:26.499
+because you can't just update this file in events.
+
+00:40:28.420 --> 00:40:28.620
+Men.
+
+00:40:29.780 --> 00:40:33.448
+Whoops, I had added it here, so we should really just see the result,
+
+00:40:33.448 --> 00:40:36.273
+that we could also see it inside our inbound logistics,
+
+00:40:36.273 --> 00:40:37.860
+that we had now gained a new field.
+
+00:40:39.470 --> 00:40:41.657
+We had that, Søren. I hadn't made up my mind,
+
+00:40:41.657 --> 00:40:44.401
+that it should lie. Especially, I had probably just laid a length.
+
+00:40:44.401 --> 00:40:46.430
+We'll see if a little 4 works, it works really well.
+
+00:40:47.700 --> 00:40:53.140
+Now I have actually made up my mind.
+
+00:40:54.340 --> 00:40:54.700
+The one of the.
+
+00:40:56.180 --> 00:41:00.177
+Yes and I could have chosen as I said a waybill number and the container number and
+
+00:41:00.177 --> 00:41:04.226
+everything else. They are container numbers. There are some standard fields so that
+
+00:41:04.226 --> 00:41:08.223
+It's not exactly the best example, but I don't know the container size.
+
+00:41:08.223 --> 00:41:10.632
+exists, and I don't think the freight number
+
+00:41:10.632 --> 00:41:13.810
+is available anywhere. Can you make it on this one so that it is
+
+00:41:13.810 --> 00:41:14.220
+manager?
+
+00:41:16.100 --> 00:41:17.540
+Yes, you can because.
+
+00:41:19.580 --> 00:41:23.458
+I've allowed it to be a long time. OK, so if you remove the blank, you should
+
+00:41:23.458 --> 00:41:26.318
+write something down and you have to think about it,
+
+00:41:26.318 --> 00:41:30.197
+because it can get annoying, because if you're in the middle of a world where
+
+00:41:30.197 --> 00:41:33.008
+that moves, then you have a lot of things where you don't have
+
+00:41:33.008 --> 00:41:35.723
+taken a position. So if you choose it from Medind then you must
+
+00:41:35.723 --> 00:41:39.747
+You have to take a stand because in a day or two someone will want to look at it.
+
+00:41:39.747 --> 00:41:42.608
+those from last year, then they can't and then they can't print
+
+00:41:42.608 --> 00:41:43.820
+enter and It might be OK.
+
+00:41:44.790 --> 00:41:46.510
+So you just have to think about it.
+
+00:41:47.140 --> 00:41:50.743
+About that about That's what you want, but but, but that way you can do So you see
+
+00:41:50.743 --> 00:41:53.469
+the one with her clothes, but so you can actually sit and code
+
+00:41:53.469 --> 00:41:56.749
+a little into the aspects. Yes, it's actually a bit of user code in
+
+00:41:56.749 --> 00:42:00.260
+can't do it here. So it's a. It's a relatively flexible way.
+
+00:42:01.830 --> 00:42:05.433
+Which should at least be equal to what was then so So II that level,
+
+00:42:05.433 --> 00:42:08.710
+Well, this is fine. But I can make you a new one.
+
+00:42:10.020 --> 00:42:13.043
+Whatever happens now, we have decided now.
+
+00:42:13.043 --> 00:42:16.430
+Let's say that We have been. We are satisfied with Our incoming
+
+00:42:16.430 --> 00:42:16.900
+logistics.
+
+00:42:18.550 --> 00:42:21.796
+We would probably add Our penalty kick now and and some various others
+
+00:42:21.796 --> 00:42:24.953
+information for Our view. You can create your own view afterwards and then
+
+00:42:24.953 --> 00:42:26.510
+Say the ones you think make sense.
+
+00:42:28.390 --> 00:42:30.054
+Certainly some of the standard fields too.
+
+00:42:30.054 --> 00:42:33.086
+I could have chosen more that make sense when you sit down and follow up on a
+
+00:42:33.086 --> 00:42:34.269
+on a container coming home.
+
+00:42:35.140 --> 00:42:39.327
+Let's say We've got it done. I'm creating a new purchase order.
+
+00:42:39.327 --> 00:42:44.316
+It will automatically be included in your view. There are some trigger setups,
+
+00:42:44.316 --> 00:42:46.780
+which ensures that it is included automatically.
+
+00:42:47.340 --> 00:42:50.096
+So it comes in well ahead with it coming along by itself.
+
+00:42:50.096 --> 00:42:54.158
+It's a bit like if you go into IIPDMI to change something IIP and press save.
+
+00:42:54.158 --> 00:42:57.494
+If you go out and enter Tourist 51, you'll see it right away.
+
+00:42:57.494 --> 00:43:00.976
+It's the same database you're asking questions and tinkering with, and therefore yes.
+
+00:43:00.976 --> 00:43:04.700
+the technique is a little different here because It's a file There's a new file when you
+
+00:43:04.700 --> 00:43:08.617
+looking at inbound logistics This is this ship DTA so It's a file by itself,
+
+00:43:08.617 --> 00:43:11.180
+but it updates automatically when you make changes.
+
+00:43:12.020 --> 00:43:16.129
+What is called a trigger set, which means that every time you make a change
+
+00:43:16.129 --> 00:43:19.652
+to your purchase order, then it will be replicated over a ****
+
+00:43:19.652 --> 00:43:22.470
+captivates itself. There are some types of changes,
+
+00:43:22.470 --> 00:43:26.169
+if we change some valid values and such types of things.
+
+00:43:26.169 --> 00:43:30.925
+They charge a little more and then they charge you to have your chip restored to that.
+
+00:43:30.925 --> 00:43:34.506
+not all types of things are updated. If you change a 12.
+
+00:43:34.506 --> 00:43:36.619
+positions from an example over here.
+
+00:43:37.630 --> 00:43:39.402
+And then we have to drive it where we drive it.
+
+00:43:39.402 --> 00:43:42.447
+You have to run this thing like you do when you set this up at a customer's place.
+
+00:43:42.447 --> 00:43:45.030
+It's that you put this in the job robot to run every evening.
+
+00:43:45.300 --> 00:43:48.726
+For example, but during the day. There are all these common
+
+00:43:48.726 --> 00:43:53.074
+transactions, they are automatically updated by. So most people don't know that it is there
+
+00:43:53.074 --> 00:43:56.194
+and runs. It really is. It's just nice that it does.
+
+00:43:56.194 --> 00:43:58.649
+And if you're worried that things aren't going well,
+
+00:43:58.649 --> 00:44:02.128
+Then you just need to get everyone out of this and the agenda file.
+
+00:44:02.128 --> 00:44:04.890
+You can actually do that, just like we did before,
+
+00:44:04.890 --> 00:44:06.220
+or you can drive 82. 46.
+
+00:44:07.700 --> 00:44:12.660
+So 82 46 is essentially doing what I did by pressing the data file object.
+
+00:44:14.160 --> 00:44:16.575
+Can you tell me, so that's how the ride I got
+
+00:44:16.575 --> 00:44:17.040
+made there?
+
+00:44:18.340 --> 00:44:18.540
+Okay.
+
+00:44:21.090 --> 00:44:24.630
+Mega cool, yes, good idea, that's it, most of it.
+
+00:44:24.630 --> 00:44:29.288
+It's actually very logical to create some new fields,
+
+00:44:29.288 --> 00:44:33.201
+provide some valid values, have a view of your purchase order.
+
+00:44:33.201 --> 00:44:37.176
+That's the hard part, I think. It's this view with the split.
+
+00:44:37.176 --> 00:44:40.530
+It's like thinking that we suddenly have a shopping season.
+
+00:44:42.150 --> 00:44:44.950
+Where we, where we can't now we can say my 4 was a
+
+00:44:44.950 --> 00:44:47.750
+example where I had 2 lines over in my split.
+
+00:44:48.340 --> 00:44:51.097
+It's actually a bit special because I made the first 3 lines.
+
+00:44:51.097 --> 00:44:52.881
+a long time ago, so they don't talk to them at all,
+
+00:44:52.881 --> 00:44:56.003
+but otherwise you will be able to see that the other lines are about them having
+
+00:44:56.003 --> 00:44:57.220
+various vitamins down here.
+
+00:44:59.150 --> 00:45:03.044
+Now we can take the next order, and now I can't remember what number
+
+00:45:03.044 --> 00:45:06.150
+It was. There is an order. 5 let's try to see it 81 words.
+
+00:45:09.140 --> 00:45:14.177
+No, it doesn't have 7 cameras, you can see the seven has a line.
+
+00:45:14.177 --> 00:45:17.876
+It seems like it's running, what's it called?
+
+00:45:17.876 --> 00:45:23.780
+Field 2 is a number 100 and field 3 is a number one and then I even have.
+
+00:45:25.350 --> 00:45:29.685
+Shown what is the name of the field for the color too and it then shows a max field like
+
+00:45:29.685 --> 00:45:33.750
+It's called 900, but I'm not divided on colors, so I actually can.
+
+00:45:35.350 --> 00:45:40.106
+Remember and that, that, I think maybe we should try to take that into account in
+
+00:45:40.106 --> 00:45:40.870
+Our designs.
+
+00:45:41.740 --> 00:45:44.573
+So if I just go into my design on this one,
+
+00:45:44.573 --> 00:45:47.973
+So I'd like to show you how split works,
+
+00:45:47.973 --> 00:45:49.900
+So I'd like to show it here.
+
+00:45:51.470 --> 00:45:54.046
+Now I just need to see field 4, where do we have one?
+
+00:45:54.046 --> 00:45:56.990
+It's called FL 4, it will simply be a book here.
+
+00:45:58.780 --> 00:45:59.540
+I can't do that. 4.
+
+00:46:01.060 --> 00:46:03.662
+Because you could see that now I chose max FL 4.
+
+00:46:03.662 --> 00:46:06.660
+I would actually like to see the minimum of FL 4 max.
+
+00:46:09.510 --> 00:46:11.870
+As soon as there are really many fields in this one,
+
+00:46:11.870 --> 00:46:15.098
+because you have to think that there is a minimum and a maximum in all the fields,
+
+00:46:15.098 --> 00:46:18.953
+because it depends on what it is gentle. Whether you can count on the value or not
+
+00:46:18.953 --> 00:46:22.325
+If you have split it up, there is a line for each unique.
+
+00:46:22.325 --> 00:46:25.120
+But if you don't have it, then there isn't anything in this case.
+
+00:46:25.120 --> 00:46:26.710
+Now I have chosen to see both.
+
+00:46:27.940 --> 00:46:30.709
+Now we just have to see if it works. It's been redesigned.
+
+00:46:30.709 --> 00:46:33.967
+In my table design, I'd like to make sure we see that too.
+
+00:46:33.967 --> 00:46:38.093
+So now I see both the minimum and the maximum, and that's actually a nice example,
+
+00:46:38.093 --> 00:46:40.862
+for We have not We have split on fields 2 and 3, 1,
+
+00:46:40.862 --> 00:46:45.043
+2 and 3 and we split and you can see so there it will show if there was 2
+
+00:46:45.043 --> 00:46:48.356
+different values. If I had a 2 item then it should be
+
+00:46:48.356 --> 00:46:52.699
+show a new line because I've split on it, but you can see I obviously have.
+
+00:46:54.030 --> 00:46:54.830
+More than one color.
+
+00:46:55.820 --> 00:46:59.428
+Because my minimum value on the color is 100 and my maximum is 900.
+
+00:46:59.428 --> 00:47:03.940
+I haven't split by color, so now we'll go straight in and see this order.
+
+00:47:06.020 --> 00:47:10.824
+Boom, that was 7, wasn't it? Well, I'm putting that right here.
+
+00:47:10.824 --> 00:47:15.696
+to and It's actually a little funny this because It's actually a 2 item.
+
+00:47:15.696 --> 00:47:19.100
+Is this the right one I have? I just want to be sure.
+
+00:47:20.540 --> 00:47:22.780
+It was 7 and.
+
+00:47:25.570 --> 00:47:29.094
+It doesn't seem like I'm going to see anything else here either.
+
+00:47:29.094 --> 00:47:33.420
+Try looking here, it looks like it's a bit funny here. Try looking here.
+
+00:47:33.420 --> 00:47:35.290
+These are actually 2 different products.
+
+00:47:37.450 --> 00:47:40.897
+I think I'll try recalculating my shipping for 2 seconds.
+
+00:47:40.897 --> 00:47:42.570
+I'm just going out of my way.
+
+00:47:43.220 --> 00:47:45.640
+I think you should just call them 2 different things.
+
+00:47:45.640 --> 00:47:49.524
+No, they're actually called 2 different things when I just looked at my purchases,
+
+00:47:49.524 --> 00:47:52.550
+So it could be because I've done this before,
+
+00:47:52.550 --> 00:47:56.736
+so I'm actually trying to make a new one to be in place of instead of
+
+00:47:56.736 --> 00:48:00.872
+so that we just need to limit it all again because then it does the work for us
+
+00:48:00.872 --> 00:48:03.948
+new we are doing a new job. I have shown a supplier called
+
+00:48:03.948 --> 00:48:05.260
+Like that, that's so nice.
+
+00:48:07.140 --> 00:48:09.860
+We can probably make one like that too.
+
+00:48:11.870 --> 00:48:15.398
+And then vinyl says, and then we say It was probably 100 I could do
+
+00:48:15.398 --> 00:48:15.630
+her.
+
+00:48:17.270 --> 00:48:21.190
+It's not called 100. It's also and then we just say 50 24.
+
+00:48:26.550 --> 00:48:31.166
+And then I would like to make more notes. Now I can't quite remember what colors
+
+00:48:31.166 --> 00:48:34.790
+Fortunately, there were some colored dogs, so we're saying 200 now too.
+
+00:48:36.510 --> 00:48:37.550
+And then I'll run 50 of them.
+
+00:48:40.070 --> 00:48:40.430
+Well.
+
+00:48:41.540 --> 00:48:42.700
+We would like to take a look at it.
+
+00:48:44.600 --> 00:48:45.640
+Now I have made 2 lines.
+
+00:48:47.260 --> 00:48:49.664
+And it has found it over here. I can really just look.
+
+00:48:49.664 --> 00:48:50.500
+We'll have to look at that.
+
+00:48:51.900 --> 00:48:57.148
+14-14 you can see it's just one line, and it's actually as expected,
+
+00:48:57.148 --> 00:49:02.101
+because I have a part number. But I have 2 colors and it has to be the same,
+
+00:49:02.101 --> 00:49:03.580
+So I have both.
+
+00:49:04.620 --> 00:49:07.371
+So if I now I'll see if I can remember the item number anymore.
+
+00:49:07.371 --> 00:49:10.672
+But it could be a split soft if it's just something that comes in, we'll try.
+
+00:49:10.672 --> 00:49:11.380
+to make a 2 item.
+
+00:49:14.800 --> 00:49:16.000
+If I can remember one was now.
+
+00:49:18.270 --> 00:49:19.470
+Don't I have 100 left?
+
+00:49:20.620 --> 00:49:22.814
+No, I didn't. I just have to have a little bit.
+
+00:49:22.814 --> 00:49:24.344
+help. I forgot what items I
+
+00:49:24.344 --> 00:49:26.140
+had done, so let's go over here and take a look.
+
+00:49:27.710 --> 00:49:31.790
+Then we find 1 1 1 1 is there a farunda or a folder?
+
+00:49:33.460 --> 00:49:40.313
+One one 100 I hope we can do it then it's running out 40 now there has to be an extra
+
+00:49:40.313 --> 00:49:44.940
+line because I have asked to split on items. Boom.
+
+00:49:47.460 --> 00:49:49.260
+It was lucky, so it did now.
+
+00:49:51.900 --> 00:49:56.295
+But the first 2 lines on my orders were combined into one shipping line.
+
+00:49:56.295 --> 00:50:01.326
+One has split into 2 no or not but but the next one because It is a new item
+
+00:50:01.326 --> 00:50:03.620
+I have created a new split there.
+
+00:50:05.340 --> 00:50:09.429
+And now I have split quite far down, all the way down to the item field 1 2 3 if
+
+00:50:09.429 --> 00:50:11.802
+I had it all the way up to 12 position cud,
+
+00:50:11.802 --> 00:50:15.690
+then it could be something completely different. Well then I would get many relatively few
+
+00:50:15.690 --> 00:50:18.113
+split, but this it It was a bit to show
+
+00:50:18.113 --> 00:50:19.779
+You know how it splits this.
+
+00:50:21.350 --> 00:50:24.195
+That's a little complicated. That's it. Unfortunately, there is shipping.
+
+00:50:24.195 --> 00:50:27.213
+That's what's special. It's understanding the level we're now creating.
+
+00:50:27.213 --> 00:50:27.990
+which is different.
+
+00:50:30.270 --> 00:50:32.230
+But hopefully that makes some sense,
+
+00:50:32.230 --> 00:50:35.350
+that you can say that this is fine or really good sense because.
+
+00:50:35.820 --> 00:50:38.700
+Now now now it's a little more dotty on this.
+
+00:50:39.740 --> 00:50:41.811
+Everything else is pretty much the same.
+
+00:50:41.811 --> 00:50:44.055
+That's not it. I can handle that a little bit too.
+
+00:50:44.055 --> 00:50:46.817
+I have created It's just a matter of meaning on that one,
+
+00:50:46.817 --> 00:50:47.940
+and then it made you feel down.
+
+00:50:48.300 --> 00:50:51.678
+I think it might be fun to show you now too.
+
+00:50:51.678 --> 00:50:56.163
+I have split on the term too so if these 2 are in the same split, those 2
+
+00:50:56.163 --> 00:50:59.134
+lines here. But if I choose to say this one now
+
+00:50:59.134 --> 00:51:00.940
+choose I have delivered u 51 24.
+
+00:51:03.070 --> 00:51:04.790
+Then it should actually share them too.
+
+00:51:06.940 --> 00:51:10.097
+Because now I have It's It's It's one of my split levels.
+
+00:51:10.097 --> 00:51:13.402
+Well then I have to make a new word or not a new order,
+
+00:51:13.402 --> 00:51:16.559
+but a new one a new shipping split so that's what speed means.
+
+00:51:16.559 --> 00:51:18.779
+So now you can see there's this split number.
+
+00:51:20.350 --> 00:51:23.870
+Boom boom boom It's just that you just split up.
+
+00:51:25.670 --> 00:51:25.830
+And yes.
+
+00:51:29.310 --> 00:51:33.470
+So it's shipping and split and this is it. This is the split levels.
+
+00:51:34.180 --> 00:51:37.011
+That's the logic there, you just have to get your head around it,
+
+00:51:37.011 --> 00:51:40.266
+that you just understand what it is you look at it I'll just play with it and
+
+00:51:40.266 --> 00:51:42.845
+try it yourself because that's what happens when I just saw it there,
+
+00:51:42.845 --> 00:51:46.141
+So it's really nice because when we went through it, I only drive to see them.
+
+00:51:46.141 --> 00:51:49.565
+I couldn't keep up with the text, so It's really nice and then just watch a
+
+00:51:49.565 --> 00:51:52.524
+split, but It's much better. Really well explained now compared to
+
+00:51:52.524 --> 00:51:55.905
+before It's at least nice to be able to see that It's happened like this live here in the
+
+00:51:55.905 --> 00:51:56.540
+this way, right?
+
+00:00:00.000 --> 00:00:00.000
+00:51:59.460 --> 00:52:02.365 Write them right back here sometime for the big manual,
+
+00:52:02.365 --> 00:52:04.908
+so you were part of us designing the flex fields.
+
+00:52:04.908 --> 00:52:07.191
+I actually don't think you can do much.
+
+00:52:07.191 --> 00:52:09.475
+We can actually make this a little red.
+
+00:52:09.475 --> 00:52:13.574
+I just think it was nice for you to see, because we wouldn't have needed to
+
+00:52:13.574 --> 00:52:16.791
+create them here, but it gives that person an understanding of what
+
+00:52:16.791 --> 00:52:19.905
+they can be used for. Hope It's a nice idea to coherence and
+
+00:52:19.905 --> 00:52:20.579
+explain them.
+
+00:52:21.660 --> 00:52:26.095
+So actually, this is where we made it, then we restored our definition file,
+
+00:52:26.095 --> 00:52:29.710
+so it came down in this shipping file, and we recovered data,
+
+00:52:29.710 --> 00:52:30.860
+so we got the data done.
+
+00:52:32.470 --> 00:52:36.193
+And you could say, so we validated what is it called?
+
+00:52:36.193 --> 00:52:39.710
+And we'll have to come back to this one.
+
+00:52:42.830 --> 00:52:45.776
+What a great value we have created, and then we can finish with the checkpoints.
+
+00:52:45.776 --> 00:52:46.630
+We'll see that later.
+
+00:52:48.500 --> 00:52:48.780
+Well.
+
+00:52:51.170 --> 00:52:52.650
+I'm just trying to figure out where it is.
+
+00:52:54.540 --> 00:52:55.420
+Hypophen right here.
+
+00:52:59.600 --> 00:52:59.840
+Null.
